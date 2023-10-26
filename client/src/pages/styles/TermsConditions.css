@@ -1,0 +1,188 @@
+/* =============== Container =============== */
+.container-termsconditions-CSS {
+  position: relative;
+  justify-content: center;
+  width: auto;
+  margin: 75px 275px;
+}
+
+.termsconditions-h1-CSS {
+  font-size: 70px;
+  text-align: center;
+}
+
+.termsconditions-p-CSS {
+  font-size: 30px;
+}
+
+
+
+/* =============== Media Queries =============== */
+
+/* =============== Mobile View =============== */
+@media only screen and (250px <= width <= 425px) {
+  /* Container */
+  .container-termsconditions-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 25px;
+  }
+
+  .termsconditions-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .termsconditions-p-CSS {
+    font-size: 20px;
+  }
+}
+
+
+
+@media only screen and (426px <= width <= 499px) {
+  /* Container */
+  .container-termsconditions-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 25px;
+  }
+
+  .termsconditions-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .termsconditions-p-CSS {
+    font-size: 20px;
+  }
+}
+
+
+
+@media only screen and (500px <= width <= 550px) {
+  /* Container */
+  .container-termsconditions-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 50px;
+  }
+
+  .termsconditions-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .termsconditions-p-CSS {
+    font-size: 20px;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 650px) {
+  /* Container */
+  .container-termsconditions-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 50px;
+  }
+
+  .termsconditions-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .termsconditions-p-CSS {
+    font-size: 20px;
+  }
+}
+
+
+
+@media only screen and (710px <= width <= 767px) {
+  /* Container */
+  .container-termsconditions-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 50px;
+  }
+
+  .termsconditions-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .termsconditions-p-CSS {
+    font-size: 20px;
+  }
+}
+
+
+
+/* =============== Tablet View =============== */
+@media only screen and (768px <= width <= 1023px) {
+  /* Container */
+  .container-termsconditions-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 100px;
+  }
+
+  .termsconditions-h1-CSS {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .termsconditions-p-CSS {
+    font-size: 25px;
+  }
+}
+
+
+
+@media only screen and (1024px <= width <= 1120px) {
+  /* Container */
+  .container-termsconditions-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 100px;
+  }
+
+  .termsconditions-h1-CSS {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .termsconditions-p-CSS {
+    font-size: 25px;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+  /* Container */
+  .container-termsconditions-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 100px;
+  }
+
+  .termsconditions-h1-CSS {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .termsconditions-p-CSS {
+    font-size: 25px;
+  }
+}

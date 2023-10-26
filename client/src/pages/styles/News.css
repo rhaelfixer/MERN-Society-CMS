@@ -1,0 +1,839 @@
+/* =============== Container =============== */
+.container-news1-CSS {
+  justify-content: center;
+  padding: 75px 0px;
+  margin: auto;
+}
+
+.container-news2-CSS {
+  justify-content: center;
+  background-color: #276f9f69;
+  padding: 75px 0px;
+  margin: auto;
+}
+
+.h1-news-CSS {
+  font-size: 50px;
+  text-align: center;
+  color: #27709f;
+  margin: 0px auto 25px;
+}
+
+.form-news-CSS,
+.read-news-CSS {
+  text-align: center;
+}
+
+.news-label-CSS {
+  font-size: larger;
+  font-weight: bold;
+  color: MidnightBlue;
+}
+
+.news-label-CSS:focus-within {
+  color: SlateGrey;
+}
+
+.news-text-CSS {
+  font-size: large;
+}
+
+.news-text-CSS:not(:focus):placeholder-shown {
+  border: none;
+  outline: 3px solid #27709f;
+  background-color: SlateGrey;
+}
+
+.news-text-CSS:focus:placeholder-shown {
+  border: none;
+  outline: 3px solid #276f9f69;
+  background-color:GhostWhite;
+}
+
+.news-text-CSS:valid {
+  border: none;
+  outline: 3px solid Green;
+  background-color: HoneyDew;
+}
+
+.news-text-CSS:invalid {
+  border: none;
+  outline: 3px solid Red;
+  background-color: MistyRose;
+}
+
+.news-span-CSS {
+  font-size: 24px;
+  color: Red;
+}
+
+.alert-news-CSS {
+  font-size: 30px;
+}
+
+.submit-news-button-CSS {
+  font-size: 26px;
+  display: inline-block;
+  text-decoration: none;
+  width: 50%;
+  background-color: #27709f;
+}
+
+.news-line-CSS {
+  border-bottom: 10px solid #27709f;
+  margin: auto;
+}
+
+
+/* =============== Section 1 =============== */
+.loading-news-CSS {
+  justify-content: center;
+  margin: 75px 0px;
+}
+
+.loading-news-spinner-CSS {
+  color: #27709f;
+  margin: 75px 0px;
+}
+
+.news-search-box-CSS {
+  width: 50%;
+  margin: auto;
+}
+
+.news-clear-search-button-CSS {
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  width: 25%;
+  background-color: #27709f;
+  margin: 25px auto;
+}
+
+.news-search-box-result-CSS {
+  color: #27709f;
+  margin: 0px;
+}
+
+.section1-news-CSS {
+  justify-content: center;
+  margin: 50px 0px 75px;
+}
+
+.news-title-CSS {
+  font-size: 28px;
+}
+
+.news-date-CSS {
+  font-size: 26px;
+}
+
+.news-description-CSS {
+  font-size: 24px;
+  white-space: pre-wrap;
+}
+
+.news-button1-CSS {
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  width: auto;
+  background-color: #27709f;
+  margin: auto;
+}
+
+.news-button2-CSS {
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  width: auto;
+  background-color: Red;
+  margin: auto;
+}
+
+.title-news-modal-CSS {
+  margin: 20px 0px 10px;
+}
+
+.news-link-button-CSS {
+  background-color: #27709f;
+  margin: 0px 50px 25px;
+}
+
+.news-cancel-button-CSS {
+  margin: 0px 50px 25px;
+}
+
+.news-save-button-CSS {
+  background-color: #27709f;
+  margin: 0px 50px 25px;
+}
+
+.news-delete-button-CSS {
+  background-color: Red;
+  margin: 0px 50px 25px;
+}
+
+
+/* =============== Section 2 =============== */
+.section2-news-CSS {
+  justify-content: center;
+  margin: 50px 0px 75px;
+}
+
+
+
+/* =============== Media Queries =============== */
+
+/* =============== Mobile View =============== */
+@media only screen and (250px <= width <= 550px) {
+  /* Container */
+  .container-news1-CSS {
+    justify-content: center;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .container-news2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .h1-news-CSS {
+    font-size: 30px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .news-label-CSS {
+    font-size: large;
+    color: MidnightBlue;
+  }
+
+  .news-text-CSS {
+    font-size: medium;
+  }
+
+  .news-span-CSS {
+    font-size: 22px;
+    color: Red;
+  }
+
+  .submit-news-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-news-CSS {
+    justify-content: center;
+    margin: 50px 0px;
+  }
+
+  .loading-news-spinner-CSS {
+    color: #27709f;
+    margin: 50px 0px;
+  }
+
+  .news-search-box-CSS {
+    width: 100%;
+    margin: auto;
+  }
+
+  .news-clear-search-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-news-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+
+  .news-title-CSS {
+    font-size: 26px;
+  }
+
+  .news-date-CSS {
+    font-size: 24px;
+  }
+
+  .news-description-CSS {
+    font-size: 22px;
+  }
+
+  .news-button1-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .news-button2-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-news-modal-CSS {
+    margin: 10px 0px 5px;
+  }
+
+  .news-cancel-button-CSS {
+    margin: 0px 25px 10px;
+  }
+
+  .news-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 25px 10px;
+  }
+
+  .news-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 25px 10px;
+  }
+
+  /* Section 2 */
+  .section2-news-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 767px) {
+  /* Container */
+  .container-news1-CSS {
+    justify-content: center;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .container-news2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .h1-news-CSS {
+    font-size: 30px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .news-label-CSS {
+    font-size: large;
+    color: MidnightBlue;
+  }
+
+  .news-text-CSS {
+    font-size: medium;
+  }
+
+  .news-span-CSS {
+    font-size: 22px;
+    color: Red;
+  }
+
+  .submit-news-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-news-CSS {
+    justify-content: center;
+    margin: 50px 0px;
+  }
+
+  .loading-news-spinner-CSS {
+    color: #27709f;
+    margin: 50px 0px;
+  }
+
+  .news-search-box-CSS {
+    width: 100%;
+    margin: auto;
+  }
+
+  .news-clear-search-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: 75%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-news-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+
+  .news-title-CSS {
+    font-size: 26px;
+  }
+
+  .news-date-CSS {
+    font-size: 24px;
+  }
+
+  .news-description-CSS {
+    font-size: 22px;
+  }
+
+  .news-button1-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .news-button2-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-news-modal-CSS {
+    margin: 10px 0px 5px;
+  }
+
+  .news-cancel-button-CSS {
+    margin: 0px 25px 10px;
+  }
+
+  .news-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 25px 10px;
+  }
+
+  .news-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 25px 10px;
+  }
+
+  /* Section 2 */
+  .section2-news-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+}
+
+
+
+/* =============== Tablet View =============== */
+@media only screen and (768px <= width <= 1120px) {
+  /* Container */
+  .container-news1-CSS {
+    justify-content: center;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .container-news2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .h1-news-CSS {
+    font-size: 30px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .news-label-CSS {
+    font-size: large;
+    color: MidnightBlue;
+  }
+
+  .news-text-CSS {
+    font-size: medium;
+  }
+
+  .news-span-CSS {
+    font-size: 22px;
+    color: Red;
+  }
+
+  .submit-news-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-news-CSS {
+    justify-content: center;
+    margin: 50px 0px;
+  }
+
+  .loading-news-spinner-CSS {
+    color: #27709f;
+    margin: 50px 0px;
+  }
+
+  .news-search-box-CSS {
+    width: 100%;
+    margin: auto;
+  }
+
+  .news-clear-search-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: 75%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-news-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+
+  .news-title-CSS {
+    font-size: 26px;
+  }
+
+  .news-date-CSS {
+    font-size: 24px;
+  }
+
+  .news-description-CSS {
+    font-size: 22px;
+  }
+
+  .news-button1-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .news-button2-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-news-modal-CSS {
+    margin: 10px 0px 5px;
+  }
+
+  .news-cancel-button-CSS {
+    margin: 0px 25px 10px;
+  }
+
+  .news-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 25px 10px;
+  }
+
+  .news-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 25px 10px;
+  }
+
+  /* Section 2 */
+  .section2-news-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+  /* Container */
+  .container-news1-CSS {
+    justify-content: center;
+    padding: 75px 0px;
+    margin: auto;
+  }
+
+  .container-news2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 75px 0px;
+    margin: auto;
+  }
+
+  .h1-news-CSS {
+    font-size: 50px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .news-label-CSS {
+    font-size: larger;
+    color: MidnightBlue;
+  }
+
+  .news-text-CSS {
+    font-size: large;
+  }
+
+  .news-span-CSS {
+    font-size: 24px;
+    color: Red;
+  }
+
+  .submit-news-button-CSS {
+    font-size: 26px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-news-CSS {
+    justify-content: center;
+    margin: 75px 0px;
+  }
+
+  .loading-news-spinner-CSS {
+    color: #27709f;
+    margin: 75px 0px;
+  }
+
+  .news-search-box-CSS {
+    width: 75%;
+    margin: auto;
+  }
+
+  .news-clear-search-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-news-CSS {
+    justify-content: center;
+    margin: 50px 0px 75px;
+  }
+
+  .news-title-CSS {
+    font-size: 28px;
+  }
+
+  .news-date-CSS {
+    font-size: 26px;
+  }
+
+  .news-description-CSS {
+    font-size: 24px;
+  }
+
+  .news-button1-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .news-button2-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-news-modal-CSS {
+    margin: 20px 0px 10px;
+  }
+
+  .news-cancel-button-CSS {
+    margin: 0px 50px 35px;
+  }
+
+  .news-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 50px 35px;
+  }
+
+  .news-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 50px 35px;
+  }
+
+  /* Section 2 */
+  .section2-news-CSS {
+    justify-content: center;
+    margin: 50px 0px 75px;
+  }
+}
+
+
+
+/* =============== Drop Zone Area (Cloudinary) =============== */
+.news-dropzone-CSS {
+  background-color: #276f9f69;
+  border: none;
+  border-radius: 7px;
+  outline: 3px solid #27709f;
+  padding: 50px;
+  margin: auto;
+}
+
+.news-area-preview-CSS {
+  display: inline-flex;
+  background-color: SlateGrey;
+  border: none;
+  border-radius: 13px;
+  outline: 3px solid #27709f;
+  box-sizing: border-box;
+  height: auto;
+  width: auto;
+  padding: 7px;
+  margin: auto;
+}
+
+.display-news-preview-CSS {
+  height: auto;
+  max-width: 500px;
+}
+
+.update-news-preview-CSS {
+  height: auto;
+  max-width: 450px;
+}
+
+.uploading-news-CSS {
+  justify-content: center;
+  margin: 25px 0px;
+}
+
+.uploading-news-spinner-CSS {
+  color: MidnightBlue;
+  margin: 25px 0px 50px;
+}
+
+
+
+/* =============== Media Queries (Cloudinary) =============== */
+
+/* =============== Mobile View (Cloudinary) =============== */
+@media only screen and (250px <= width <= 550px) {
+  .news-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 25px;
+    margin: auto;
+  }
+
+  .display-news-preview-CSS,
+  .update-news-preview-CSS {
+    height: auto;
+    max-width: 250px;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 767px) {
+  .news-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 25px;
+    margin: auto;
+  }
+
+  .display-news-preview-CSS,
+  .update-news-preview-CSS {
+    height: auto;
+    max-width: 250px;
+  }
+}
+
+
+
+/* =============== Tablet View (Cloudinary) =============== */
+@media only screen and (768px <= width <= 1120px) {
+  .news-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 25px;
+    margin: auto;
+  }
+
+  .display-news-preview-CSS,
+  .update-news-preview-CSS {
+    height: auto;
+    max-width: 350px;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+  .news-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 50px;
+    margin: auto;
+  }
+
+  .display-news-preview-CSS {
+    height: auto;
+    max-width: 500px;
+  }
+
+  .update-news-preview-CSS {
+    height: auto;
+    max-width: 450px;
+  }
+}

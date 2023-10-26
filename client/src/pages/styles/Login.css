@@ -1,0 +1,511 @@
+/* =============== Container =============== */
+.container-login-CSS {
+  position: relative;
+  justify-content: center;
+  width: auto;
+  margin: 75px 0px;
+}
+
+.login-card-CSS {
+  text-align: center;
+  box-shadow: 0px 0px 15px 5px rgba(39, 112, 159, 1);
+  width: 50%;
+  margin: 0% 25%;
+}
+
+.h1-login-CSS {
+  text-align: center;
+  color: #27709f;
+  margin: 50px 25px 20px;
+}
+
+.login-label-CSS {
+  font-size: 27px;
+  color:#27709f;
+  display: inline-block;
+  text-align: right;
+  margin: 20px 25px 20px;
+}
+
+.login-text-CSS:not(:focus)::placeholder {
+  color: GhostWhite;
+}
+
+.login-text-CSS:not(:focus):placeholder-shown {
+  border: none;
+  outline: 3px solid #27709f;
+  background-color: SlateGrey;
+}
+
+.login-text-CSS:focus:placeholder-shown {
+  border: none;
+  outline: 3px solid #276f9f69;
+  background-color:GhostWhite;
+}
+
+.login-text-CSS:valid {
+  border: none;
+  outline: 3px solid Green;
+  background-color: HoneyDew;
+}
+
+.login-text-CSS:invalid {
+  border: none;
+  outline: 3px solid Red;
+  background-color: MistyRose;
+}
+
+.login-error-message-CSS {
+  font-size: 24px;
+  color: Red;
+  margin: auto;
+}
+
+.alert-login-CSS {
+  font-size: 30px;
+}
+
+.login-button-CSS {
+  font-size: 27px;
+  display: inline-block;
+  text-decoration: none;
+  width: 50%;
+  background-color: Orange;
+  margin: 20px auto;
+}
+
+.extra-label-CSS {
+  justify-content: center;
+  margin: 0px 150px;
+}
+
+.extra-text-CSS {
+  font-size: 23px;
+  color:#27709f;
+  margin: 25px 25px 25px;
+}
+
+.forgot-swal-CSS {
+  cursor: pointer;
+}
+
+.signup-link-CSS {
+  color: #27709f;
+}
+
+
+
+/* =============== Media Queries =============== */
+
+/* =============== Mobile View =============== */
+@media only screen and (250px <= width <= 425px) {
+  /* Container */
+  .container-login-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 0px;
+  }
+
+  .login-card-CSS {
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px rgba(39, 112, 159, 1);
+    width: 100%;
+    margin: 0%
+  }
+
+  .h1-login-CSS {
+    text-align: center;
+    color: #27709f;
+    margin: 50px 25px 20px;
+  }
+
+  .login-label-CSS {
+    font-size: 25px;
+    color:#27709f;
+    display: inline-block;
+    text-align: right;
+    margin: 20px 25px 20px;
+  }
+
+  .login-error-message-CSS {
+    font-size: 22px;
+    color: Red;
+    margin: auto;
+  }
+
+  .login-button-CSS {
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: Orange;
+    margin: 20px auto;
+  }
+
+  .extra-label-CSS {
+    justify-content: center;
+    margin: 25px;
+  }
+
+  .extra-text-CSS {
+    font-size: 21px;
+    color:#27709f;
+    margin: 10px;
+  }
+}
+
+
+
+@media only screen and (426px <= width <= 499px) {
+  /* Container */
+  .container-login-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 0px;
+  }
+
+  .login-card-CSS {
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px rgba(39, 112, 159, 1);
+    width: 80%;
+    margin: 0% 10%;
+  }
+
+  .h1-login-CSS {
+    text-align: center;
+    color: #27709f;
+    margin: 50px 25px 20px;
+  }
+
+  .login-label-CSS {
+    font-size: 25px;
+    color:#27709f;
+    display: inline-block;
+    text-align: right;
+    margin: 20px 25px 20px;
+  }
+
+  .login-error-message-CSS {
+    font-size: 22px;
+    color: Red;
+    margin: auto;
+  }
+
+  .login-button-CSS {
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: Orange;
+    margin: 20px auto;
+  }
+
+  .extra-label-CSS {
+    justify-content: center;
+    margin: 25px 35px;
+  }
+
+  .extra-text-CSS {
+    font-size: 21px;
+    color:#27709f;
+    margin: 10px;
+  }
+}
+
+
+
+@media only screen and (500px <= width <= 550px) {
+  /* Container */
+  .container-login-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 0px;
+  }
+
+  .login-card-CSS {
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px rgba(39, 112, 159, 1);
+    width: 80%;
+    margin: 0% 10%;
+  }
+
+  .h1-login-CSS {
+    text-align: center;
+    color: #27709f;
+    margin: 50px 25px 20px;
+  }
+
+  .login-label-CSS {
+    font-size: 27px;
+    color:#27709f;
+    display: inline-block;
+    text-align: right;
+    margin: 20px 25px 20px;
+  }
+
+  .login-error-message-CSS {
+    font-size: 24px;
+    color: Red;
+    margin: auto;
+  }
+
+  .login-button-CSS {
+    font-size: 27px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: Orange;
+    margin: 20px auto;
+  }
+
+  .extra-label-CSS {
+    justify-content: center;
+    margin: 25px 40px;
+  }
+
+  .extra-text-CSS {
+    font-size: 23px;
+    color:#27709f;
+    margin: 10px;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 650px) {
+  /* Container */
+  .container-login-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 0px;
+  }
+
+  .login-card-CSS {
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px rgba(39, 112, 159, 1);
+    width: 80%;
+    margin: 0% 10%;
+  }
+
+  .h1-login-CSS {
+    text-align: center;
+    color: #27709f;
+    margin: 50px 25px 20px;
+  }
+
+  .login-label-CSS {
+    font-size: 27px;
+    color:#27709f;
+    display: inline-block;
+    text-align: right;
+    margin: 20px 25px 20px;
+  }
+
+  .login-error-message-CSS {
+    font-size: 24px;
+    color: Red;
+    margin: auto;
+  }
+
+  .login-button-CSS {
+    font-size: 27px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: Orange;
+    margin: 20px auto;
+  }
+
+  .extra-label-CSS {
+    justify-content: center;
+    margin: 25px 50px;
+  }
+
+  .extra-text-CSS {
+    font-size: 23px;
+    color:#27709f;
+    margin: 10px;
+  }
+}
+
+
+
+@media only screen and (710px <= width <= 767px) {
+  /* Container */
+  .container-login-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 0px;
+  }
+
+  .login-card-CSS {
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px rgba(39, 112, 159, 1);
+    width: 80%;
+    margin: 0% 10%;
+  }
+
+  .h1-login-CSS {
+    text-align: center;
+    color: #27709f;
+    margin: 50px 25px 20px;
+  }
+
+  .login-label-CSS {
+    font-size: 27px;
+    color:#27709f;
+    display: inline-block;
+    text-align: right;
+    margin: 20px 25px 20px;
+  }
+
+  .login-error-message-CSS {
+    font-size: 24px;
+    color: Red;
+    margin: auto;
+  }
+
+  .login-button-CSS {
+    font-size: 27px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: Orange;
+    margin: 20px auto;
+  }
+
+  .extra-label-CSS {
+    justify-content: center;
+    margin: 25px 75px;
+  }
+
+  .extra-text-CSS {
+    font-size: 23px;
+    color:#27709f;
+    margin: 10px;
+  }
+}
+
+
+
+/* =============== Tablet View =============== */
+@media only screen and (768px <= width <= 1120px) {
+  /* Container */
+  .container-login-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 75px 0px;
+  }
+
+  .login-card-CSS {
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px rgba(39, 112, 159, 1);
+    width: 70%;
+    margin: 0% 15%;
+  }
+
+  .h1-login-CSS {
+    text-align: center;
+    color: #27709f;
+    margin: 50px 25px 20px;
+  }
+
+  .login-label-CSS {
+    font-size: 27px;
+    color:#27709f;
+    display: inline-block;
+    text-align: right;
+    margin: 20px 25px 20px;
+  }
+
+  .login-error-message-CSS {
+    font-size: 24px;
+    color: Red;
+    margin: auto;
+  }
+
+  .login-button-CSS {
+    font-size: 27px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: Orange;
+    margin: 20px auto;
+  }
+
+  .extra-label-CSS {
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .extra-text-CSS {
+    font-size: 23px;
+    color:#27709f;
+    margin: 25px 25px 25px;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+ /* Container */
+  .container-login-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 75px 0px;
+  }
+
+  .login-card-CSS {
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px rgba(39, 112, 159, 1);
+    width: 70%;
+    margin: 0% 15%;
+  }
+
+  .h1-login-CSS {
+    text-align: center;
+    color: #27709f;
+    margin: 50px 25px 20px;
+  }
+
+  .login-label-CSS {
+    font-size: 27px;
+    color:#27709f;
+    display: inline-block;
+    text-align: right;
+    margin: 20px 25px 20px;
+  }
+
+  .login-error-message-CSS {
+    font-size: 24px;
+    color: Red;
+    margin: auto;
+  }
+
+  .login-button-CSS {
+    font-size: 27px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: Orange;
+    margin: 20px auto;
+  }
+
+  .extra-label-CSS {
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .extra-text-CSS {
+    font-size: 23px;
+    color:#27709f;
+    margin: 25px 25px 25px;
+  }
+}

@@ -1,0 +1,701 @@
+/* =============== Container =============== */
+.container-signup-CSS {
+  justify-content: center;
+  margin: 75px 0px;
+}
+
+.register-form-CSS,
+.register-text-CSS {
+  text-align: center;
+  color: #27709f;
+}
+
+.symbol-CSS {
+  color: Red;
+}
+
+
+/* =============== Section 1 =============== */
+.section1-register-CSS {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.form-CSS {
+  font-size: 24px;
+}
+
+.input-label-CSS {
+  font-size: 26px;
+  color:#27709f;
+  display: inline-block;
+  text-align: right;
+  width: 261px;
+  margin: 0px;
+}
+
+.input-text-CSS,
+.input-select-CSS {
+  float: right;
+  width: 65%;
+}
+
+.span-1-CSS {
+  display: inline-block;
+  margin-left: 35%;
+}
+
+.alert-sign-CSS {
+  font-size: 30px;
+}
+
+.require-password-CSS {
+  width: 34%;
+  color: SteelBlue;
+}
+
+.span-2-CSS {
+  display: inline-block;
+}
+
+.input-text-CSS:not(:focus)::placeholder,
+.input-select-CSS:not(:focus),
+.radio-text-CSS:not(:focus)::placeholder {
+  color: GhostWhite;
+}
+
+.input-text-CSS:not(:focus):placeholder-shown,
+.input-select-CSS:not(:focus),
+.radio-text-CSS:not(:focus):placeholder-shown {
+  border: none;
+  outline: 3px solid #27709f;
+  background-color: SlateGrey;
+}
+
+.input-text-CSS:focus:placeholder-shown,
+.input-select-CSS:focus,
+.radio-text-CSS:focus:placeholder-shown {
+  border: none;
+  outline: 3px solid #276f9f69;
+  background-color:GhostWhite;
+}
+
+.input-text-CSS:valid,
+.radio-text-CSS:valid {
+  border: none;
+  outline: 3px solid Green;
+  background-color: HoneyDew;
+}
+
+.input-text-CSS:invalid,
+.radio-text-CSS:invalid {
+  border: none;
+  outline: 3px solid Red;
+  background-color: MistyRose;
+}
+
+.p-label-radio-CSS {
+  font-size: 26px;
+  color:#27709f;
+  float: right;
+  width: 65%;
+}
+
+.radio-check-CSS {
+  font-size: 24px;
+}
+
+.radio-label-CSS {
+  font-size: 26px;
+  color:#27709f;
+}
+
+.radio-text-CSS {
+  width: 65%;
+}
+
+.require-date-CSS {
+  color: SteelBlue;
+  margin: 0px;
+}
+
+.span-3-CSS {
+  font-size: 24px;
+  display: inline-block;
+}
+
+.agreement-label-CSS {
+  font-size: 26px;
+}
+
+.agreement-link-CSS {
+  color: #27709f;
+}
+
+.agreement-terms-CSS,
+.sign-up-notification-CSS {
+  font-size: 24px;
+}
+
+.register-button-CSS {
+  font-size: 26px;
+  display: inline-block;
+  text-decoration: none;
+  width: auto;
+  background-color: Orange;
+  margin: 25px auto;
+}
+
+
+/* =============== Section 2 =============== */
+.section2-register-CSS {
+  color: White;
+  background-color: #27709f;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.register-h1-CSS {
+  font-size: 55px;
+  font-weight:  bold;
+  text-align: center;
+  margin: 50px;
+}
+
+.register-ul-CSS {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.register-li-CSS:before {
+  content: "☑";
+  margin-right: 15px;
+}
+
+.register-li-CSS {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.register-p-CSS {
+  font-size: 25px;
+  margin-left: 57px;
+}
+
+
+
+/* =============== Media Queries =============== */
+
+/* =============== Mobile View =============== */
+@media only screen and (250px <= width <= 550px) {
+  /* Container */
+  .container-signup-CSS {
+    margin: 50px 0px;
+  }
+
+  /* Section 1 */
+  .section1-register-CSS {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .form-CSS {
+    font-size: 20px;
+  }
+
+  .input-label-CSS {
+    font-size: 22px;
+    color:#27709f;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .input-text-CSS,
+  .input-select-CSS {
+    text-align: center;
+    width: 100%;
+  }
+
+  .span-1-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .require-password-CSS {
+    width: 100%;
+    color: SteelBlue;
+  }
+
+  .span-2-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .p-label-radio-CSS {
+    font-size: 22px;
+    color:#27709f;
+    float: none;
+    width: 100%;
+  }
+
+  .radio-check-CSS {
+    font-size: 20px;
+  }
+
+  .radio-label-CSS {
+    font-size: 22px;
+    color:#27709f;
+  }
+
+  .radio-text-CSS {
+    width: 100%;
+  }
+
+  .require-date-CSS {
+    color: SteelBlue;
+    margin: 0px;
+  }
+
+  .span-3-CSS {
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  .agreement-label-CSS {
+    font-size: 22px;
+  }
+
+  .agreement-terms-CSS,
+  .sign-up-notification-CSS {
+    font-size: 20px;
+  }
+
+  .register-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto;
+  }
+
+  /* Section 2 */
+  .section2-register-CSS {
+    color: White;
+    background-color: #27709f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .register-h1-CSS {
+    font-size: 35px;
+    font-weight:  bold;
+    text-align: center;
+    margin: 25px;
+  }
+
+  .register-li-CSS {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    margin: 0px;
+  }
+
+  .register-p-CSS {
+    font-size: 20px;
+    margin-left: 45px;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 767px) {
+  /* Container */
+  .container-signup-CSS {
+    margin: 60px 0px;
+  }
+
+  /* Section 1 */
+  .section1-register-CSS {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .form-CSS {
+    font-size: 22px;
+  }
+
+  .input-label-CSS {
+    font-size: 24px;
+    color:#27709f;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .input-text-CSS,
+  .input-select-CSS {
+    text-align: center;
+    width: 100%;
+  }
+
+  .span-1-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .require-password-CSS {
+    width: 100%;
+    color: SteelBlue;
+  }
+
+  .span-2-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .p-label-radio-CSS {
+    font-size: 24px;
+    color:#27709f;
+    float: none;
+    width: 100%;
+  }
+
+  .radio-check-CSS {
+    font-size: 22px;
+  }
+
+  .radio-label-CSS {
+    font-size: 24px;
+    color:#27709f;
+  }
+
+  .radio-text-CSS {
+    width: 100%;
+  }
+
+  .require-date-CSS {
+    color: SteelBlue;
+    margin: 0px;
+  }
+
+  .span-3-CSS {
+    font-size: 22px;
+    display: inline-block;
+  }
+
+  .agreement-label-CSS {
+    font-size: 24px;
+  }
+
+  .agreement-terms-CSS,
+  .sign-up-notification-CSS {
+    font-size: 22px;
+  }
+
+  .register-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 70%;
+    background-color: Orange;
+    margin: 5% 15%;
+  }
+
+  /* Section 2 */
+  .section2-register-CSS {
+    color: White;
+    background-color: #27709f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .register-h1-CSS {
+    font-size: 40px;
+    font-weight:  bold;
+    text-align: center;
+    margin: 25px;
+  }
+
+  .register-li-CSS {
+    font-size: 27px;
+    font-weight: bold;
+    display: flex;
+    margin: 0px;
+  }
+
+  .register-p-CSS {
+    font-size: 22px;
+    margin-left: 48px;
+  }
+}
+
+
+
+/* =============== Tablet View =============== */
+@media only screen and (768px <= width <= 1120px) {
+  /* Container */
+  .container-signup-CSS {
+    margin: 75px 0px;
+  }
+
+  /* Section 1 */
+  .section1-register-CSS {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .form-CSS {
+    font-size: 24px;
+  }
+
+  .input-label-CSS {
+    font-size: 26px;
+    color:#27709f;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .input-text-CSS,
+  .input-select-CSS {
+    text-align: center;
+    width: 100%;
+  }
+
+  .span-1-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .require-password-CSS {
+    width: 100%;
+    color: SteelBlue;
+  }
+
+  .span-2-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 200%;
+    margin-left: 0%;
+  }
+
+  .p-label-radio-CSS {
+    font-size: 26px;
+    color:#27709f;
+    float: none;
+    width: 100%;
+  }
+
+  .radio-check-CSS {
+    font-size: 24px;
+  }
+
+  .radio-label-CSS {
+    font-size: 26px;
+    color:#27709f;
+  }
+
+  .radio-text-CSS {
+    width: 100%;
+  }
+
+  .require-date-CSS {
+    color: SteelBlue;
+    margin: 0px;
+  }
+
+  .span-3-CSS {
+    font-size: 24px;
+    display: inline-block;
+  }
+
+  .agreement-label-CSS {
+    font-size: 26px;
+  }
+
+  .agreement-terms-CSS,
+  .sign-up-notification-CSS {
+    font-size: 24px;
+  }
+
+  .register-button-CSS {
+    font-size: 26px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Orange;
+    margin: 25px auto;
+  }
+
+  /* Section 2 */
+  .section2-register-CSS {
+    color: White;
+    background-color: #27709f;
+    width: 58%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .register-h1-CSS {
+    font-size: 45px;
+    font-weight:  bold;
+    text-align: center;
+    margin: 25px;
+  }
+
+  .register-li-CSS {
+    font-size: 29px;
+    font-weight: bold;
+    display: flex;
+    margin: 0px;
+  }
+
+  .register-p-CSS {
+    font-size: 23px;
+    margin-left: 50px;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+  /* Container */
+  .container-signup-CSS {
+    margin: 75px 0px;
+  }
+
+  /* Section 1 */
+  .section1-register-CSS {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .form-CSS {
+    font-size: 24px;
+  }
+
+  .input-label-CSS {
+    font-size: 26px;
+    color:#27709f;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .input-text-CSS,
+  .input-select-CSS {
+    float: right;
+    width: 100%;
+  }
+
+  .span-1-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .require-password-CSS {
+    width: 35%;
+    color: SteelBlue;
+  }
+
+  .span-2-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .p-label-radio-CSS {
+    font-size: 26px;
+    color:#27709f;
+    float: right;
+    width: 60%;
+  }
+
+  .radio-check-CSS {
+    font-size: 24px;
+  }
+
+  .radio-label-CSS {
+    font-size: 26px;
+    color:#27709f;
+  }
+
+  .radio-text-CSS {
+    width: 100%;
+  }
+
+  .require-date-CSS {
+    color: SteelBlue;
+    margin: 0px;
+  }
+
+  .span-3-CSS {
+    font-size: 24px;
+    display: inline-block;
+  }
+
+  .agreement-label-CSS {
+    font-size: 26px;
+  }
+
+  .agreement-terms-CSS,
+  .sign-up-notification-CSS {
+    font-size: 24px;
+  }
+
+  .register-button-CSS {
+    font-size: 26px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Orange;
+    margin: 25px auto;
+  }
+
+  /* Section 2 */
+  .section2-register-CSS {
+    color: White;
+    background-color: #27709f;
+    width: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .register-h1-CSS {
+    font-size: 55px;
+    font-weight:  bold;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .register-li-CSS {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    margin: 0px;
+  }
+
+  .register-p-CSS {
+    font-size: 25px;
+    margin-left: 51px;
+  }
+}

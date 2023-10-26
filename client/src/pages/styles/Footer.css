@@ -1,0 +1,1232 @@
+/* =============== Container =============== */
+.container-footer-CSS {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  background-color: LightSteelBlue;
+  margin: auto;
+}
+
+
+/* =============== Section 1 =============== */
+.section1-footer-CSS {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 100px 100px;
+}
+
+.footer-logo-CSS {
+  height: 250px;
+  width: 350px;
+  margin: 0px 0px 25px;
+}
+
+.footer-p-CSS {
+  font-size: 20px;
+}
+
+
+/* =============== Section 2 & 3 =============== */
+.section2-footer-CSS,
+.section3-footer-CSS {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 75px 100px;
+}
+
+.footer-h1-CSS {
+  font-size: 35px;
+  font-weight: bold;
+  color: #27709f;
+}
+
+.footer-link-CSS,
+.footer-contacts-CSS {
+  font-size: 20px;
+  font-weight: bold;
+  color: #27709f;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 10px auto 10px;
+}
+
+.map-CSS {
+  height: 500px;
+  width: 500px;
+  padding: 5px;
+  background-color: #27709f;
+  margin: 0px auto 25px;
+}
+
+
+/* =============== Bar =============== */
+.footer-bar-CSS {
+  font-size: 17px;
+  color: White;
+  background-color: #27709f;
+  margin: auto;
+  }
+
+.footer-col1-CSS {
+  text-align: left;
+  margin: auto;
+}
+
+.footer-col2-CSS {
+  text-align: center;
+  margin: auto;
+}
+
+.footer-col3-CSS {
+  text-align: right;
+  margin: auto;
+}
+
+.footer-privacy-link-CSS {
+  font-weight: bold;
+  text-decoration: none;
+  color: White;
+}
+
+.footer-privacy-link-CSS:hover {
+  color: LightSkyBlue;
+}
+
+
+
+/* =============== Media Queries =============== */
+
+/* =============== Mobile View =============== */
+@media only screen and (250px <= width <= 425px) {
+  /* Container */
+  .container-footer-CSS {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: LightSteelBlue;
+    margin: auto;
+  }
+
+  /* Section 1 */
+  .section1-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px 0px;
+  }
+
+  .footer-logo-CSS {
+    height: 150px;
+    width: 250px;
+    margin: 0px 0px 25px;
+  }
+
+  .footer-p-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 2 */
+  .section2-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }
+
+  /* Section 3 */
+  .section3-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 75px;
+  }
+
+  .footer-h1-CSS {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27709f;
+  }
+
+  .footer-link-CSS,
+  .footer-contacts-CSS {
+    font-size: 17px;
+    font-weight: bold;
+    color: #27709f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto 10px;
+  }
+
+  .map-CSS {
+    height: 300px;
+    width: 250px;
+    padding: 5px;
+    background-color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  /* Bar */
+  .footer-bar-CSS {
+    font-size: 13px;
+    color: White;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .footer-col1-CSS {
+    text-align: left;
+    margin: auto;
+  }
+
+  .footer-col2-CSS {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-col3-CSS {
+    text-align: right;
+    margin: auto;
+  }
+
+  .footer-privacy-link-CSS {
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+  }
+
+  .footer-privacy-link-CSS:hover {
+    color: LightSkyBlue;
+  }
+}
+
+
+
+@media only screen and (426px <= width <= 499px) {
+  /* Container */
+  .container-footer-CSS {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: LightSteelBlue;
+    margin: auto;
+  }
+
+  /* Section 1 */
+  .section1-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px 0px;
+  }
+
+  .footer-logo-CSS {
+    height: 250px;
+    width: 350px;
+    margin: 0px 0px 25px;
+  }
+
+  .footer-p-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 2 */
+  .section2-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }
+
+  /* Section 3 */
+  .section3-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 75px;
+  }
+
+  .footer-h1-CSS {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27709f;
+  }
+
+  .footer-link-CSS,
+  .footer-contacts-CSS {
+    font-size: 17px;
+    font-weight: bold;
+    color: #27709f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto 10px;
+  }
+
+  .map-CSS {
+    height: 400px;
+    width: 350px;
+    padding: 5px;
+    background-color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  /* Bar */
+  .footer-bar-CSS {
+    font-size: 13px;
+    color: White;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .footer-col1-CSS {
+    text-align: left;
+    margin: auto;
+  }
+
+  .footer-col2-CSS {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-col3-CSS {
+    text-align: right;
+    margin: auto;
+  }
+
+  .footer-privacy-link-CSS {
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+  }
+
+  .footer-privacy-link-CSS:hover {
+    color: LightSkyBlue;
+  }
+}
+
+
+
+@media only screen and (500px <= width <= 550px) {
+  /* Container */
+  .container-footer-CSS {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: LightSteelBlue;
+    margin: auto;
+  }
+
+  /* Section 1 */
+  .section1-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px 0px;
+  }
+
+  .footer-logo-CSS {
+    height: 250px;
+    width: 350px;
+    margin: 0px 0px 25px;
+  }
+
+  .footer-p-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 2 */
+  .section2-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }
+
+  /* Section 3 */
+  .section3-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 75px;
+  }
+
+  .footer-h1-CSS {
+    font-size: 25px;
+    font-weight: bold;
+    color: #27709f;
+  }
+
+  .footer-link-CSS,
+  .footer-contacts-CSS {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27709f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto 10px;
+  }
+
+  .map-CSS {
+    height: 400px;
+    width: 400px;
+    padding: 5px;
+    background-color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  /* Bar */
+  .footer-bar-CSS {
+    font-size: 17px;
+    color: White;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .footer-col1-CSS {
+    text-align: left;
+    margin: auto;
+  }
+
+  .footer-col2-CSS {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-col3-CSS {
+    text-align: right;
+    margin: auto;
+  }
+
+  .footer-privacy-link-CSS {
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+  }
+
+  .footer-privacy-link-CSS:hover {
+    color: LightSkyBlue;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 650px) {
+  /* Container */
+  .container-footer-CSS {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: LightSteelBlue;
+    margin: auto;
+  }
+
+  /* Section 1 */
+  .section1-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px 0px;
+  }
+
+  .footer-logo-CSS {
+    height: 250px;
+    width: 350px;
+    margin: 0px 0px 25px;
+  }
+
+  .footer-p-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 2 & 3 */
+  .section2-footer-CSS,
+  .section3-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 75px;
+  }
+
+  .footer-h1-CSS {
+    font-size: 25px;
+    font-weight: bold;
+    color: #27709f;
+  }
+
+  .footer-link-CSS,
+  .footer-contacts-CSS {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27709f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto 10px;
+  }
+
+  .map-CSS {
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    background-color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  /* Bar */
+  .footer-bar-CSS {
+    font-size: 17px;
+    color: White;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .footer-col1-CSS {
+    text-align: left;
+    margin: auto;
+  }
+
+  .footer-col2-CSS {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-col3-CSS {
+    text-align: right;
+    margin: auto;
+  }
+
+  .footer-privacy-link-CSS {
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+  }
+
+  .footer-privacy-link-CSS:hover {
+    color: LightSkyBlue;
+  }
+}
+
+
+
+@media only screen and (710px <= width <= 723px) {
+  /* Container */
+  .container-footer-CSS {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: LightSteelBlue;
+    margin: auto;
+  }
+
+  /* Section 1 */
+  .section1-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px 0px;
+  }
+
+  .footer-logo-CSS {
+    height: 250px;
+    width: 350px;
+    margin: 0px 0px 25px;
+  }
+
+  .footer-p-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 2 & 3 */
+  .section2-footer-CSS,
+  .section3-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 75px;
+  }
+
+  .footer-h1-CSS {
+    font-size: 25px;
+    font-weight: bold;
+    color: #27709f;
+  }
+
+  .footer-link-CSS,
+  .footer-contacts-CSS {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27709f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto 10px;
+  }
+
+  .map-CSS {
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    background-color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  /* Bar */
+  .footer-bar-CSS {
+    font-size: 17px;
+    color: White;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .footer-col1-CSS {
+    text-align: left;
+    margin: auto;
+  }
+
+  .footer-col2-CSS {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-col3-CSS {
+    text-align: right;
+    margin: auto;
+  }
+
+  .footer-privacy-link-CSS {
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+  }
+
+  .footer-privacy-link-CSS:hover {
+    color: LightSkyBlue;
+  }
+}
+
+
+
+@media only screen and (724px <= width <= 767px) {
+  /* Container */
+  .container-footer-CSS {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: LightSteelBlue;
+    margin: auto;
+  }
+
+  /* Section 1 */
+  .section1-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px 0px;
+  }
+
+  .footer-logo-CSS {
+    height: 250px;
+    width: 350px;
+    margin: 0px 0px 25px;
+  }
+
+  .footer-p-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 2 */
+  .section2-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px 0px;
+  }
+
+  /* Section 3 */
+  .section3-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 75px;
+  }
+
+  .footer-h1-CSS {
+    font-size: 25px;
+    font-weight: bold;
+    color: #27709f;
+  }
+
+  .footer-link-CSS,
+  .footer-contacts-CSS {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27709f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto 10px;
+  }
+
+  .map-CSS {
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    background-color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  /* Bar */
+  .footer-bar-CSS {
+    font-size: 17px;
+    color: White;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .footer-col1-CSS {
+    text-align: left;
+    margin: auto;
+  }
+
+  .footer-col2-CSS {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-col3-CSS {
+    text-align: right;
+    margin: auto;
+  }
+
+  .footer-privacy-link-CSS {
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+  }
+
+  .footer-privacy-link-CSS:hover {
+    color: LightSkyBlue;
+  }
+}
+
+
+
+/* =============== Tablet View =============== */
+@media only screen and (768px <= width <= 1023px) {
+  /* Container */
+  .container-footer-CSS {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: LightSteelBlue;
+    margin: auto;
+  }
+
+  /* Section 1 */
+  .section1-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px 0px;
+  }
+
+  .footer-logo-CSS {
+    height: 250px;
+    width: 350px;
+    margin: 0px 0px 25px;
+  }
+
+  .footer-p-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 2 */
+  .section2-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px 0px;
+  }
+
+  /* Section 3 */
+  .section3-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 75px;
+  }
+
+  .footer-h1-CSS {
+    font-size: 25px;
+    font-weight: bold;
+    color: #27709f;
+  }
+
+  .footer-link-CSS,
+  .footer-contacts-CSS {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27709f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto 10px;
+  }
+
+  .map-CSS {
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    background-color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  /* Bar */
+  .footer-bar-CSS {
+    font-size: 17px;
+    color: White;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .footer-col1-CSS {
+    text-align: left;
+    margin: auto;
+  }
+
+  .footer-col2-CSS {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-col3-CSS {
+    text-align: right;
+    margin: auto;
+  }
+
+  .footer-privacy-link-CSS {
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+  }
+
+  .footer-privacy-link-CSS:hover {
+    color: LightSkyBlue;
+  }
+}
+
+
+
+@media only screen and (1024px <= width <= 1044px) {
+  /* Container */
+  .container-footer-CSS {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: LightSteelBlue;
+    margin: auto;
+  }
+
+  /* Section 1 */
+  .section1-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px 0px;
+  }
+
+  .footer-logo-CSS {
+    height: 250px;
+    width: 350px;
+    margin: 0px 0px 25px;
+  }
+
+  .footer-p-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 2 */
+  .section2-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px 0px;
+  }
+
+  /* Section 3 */
+  .section3-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 75px;
+  }
+
+  .footer-h1-CSS {
+    font-size: 25px;
+    font-weight: bold;
+    color: #27709f;
+  }
+
+  .footer-link-CSS,
+  .footer-contacts-CSS {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27709f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto 10px;
+  }
+
+  .map-CSS {
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    background-color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  /* Bar */
+  .footer-bar-CSS {
+    font-size: 17px;
+    color: White;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .footer-col1-CSS {
+    text-align: left;
+    margin: auto;
+  }
+
+  .footer-col2-CSS {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-col3-CSS {
+    text-align: right;
+    margin: auto;
+  }
+
+  .footer-privacy-link-CSS {
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+  }
+
+  .footer-privacy-link-CSS:hover {
+    color: LightSkyBlue;
+  }
+}
+
+
+
+@media only screen and (1045px <= width <= 1120px) {
+  /* Container */
+  .container-footer-CSS {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: LightSteelBlue;
+    margin: auto;
+  }
+
+  /* Section 1 */
+  .section1-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px;
+  }
+
+  .footer-logo-CSS {
+    height: 250px;
+    width: 350px;
+    margin: 0px 0px 25px;
+  }
+
+  .footer-p-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 2 & 3 */
+  .section2-footer-CSS,
+  .section3-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px;
+  }
+
+  .footer-h1-CSS {
+    font-size: 25px;
+    font-weight: bold;
+    color: #27709f;
+  }
+
+  .footer-link-CSS,
+  .footer-contacts-CSS {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27709f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto 10px;
+  }
+
+  .map-CSS {
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    background-color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  /* Bar */
+  .footer-bar-CSS {
+    font-size: 17px;
+    color: White;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .footer-col1-CSS {
+    text-align: left;
+    margin: auto;
+  }
+
+  .footer-col2-CSS {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-col3-CSS {
+    text-align: right;
+    margin: auto;
+  }
+
+  .footer-privacy-link-CSS {
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+  }
+
+  .footer-privacy-link-CSS:hover {
+    color: LightSkyBlue;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1290px) {
+  /* Container */
+  .container-footer-CSS {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: LightSteelBlue;
+    margin: auto;
+  }
+
+  /* Section 1 */
+  .section1-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px;
+  }
+
+  .footer-logo-CSS {
+    height: 250px;
+    width: 350px;
+    margin: 0px 0px 25px;
+  }
+
+  .footer-p-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 2 & 3 */
+  .section2-footer-CSS,
+  .section3-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px;
+  }
+
+  .footer-h1-CSS {
+    font-size: 25px;
+    font-weight: bold;
+    color: #27709f;
+  }
+
+  .footer-link-CSS,
+  .footer-contacts-CSS {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27709f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto 10px;
+  }
+
+  .map-CSS {
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    background-color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  /* Bar */
+  .footer-bar-CSS {
+    font-size: 17px;
+    color: White;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .footer-col1-CSS {
+    text-align: left;
+    margin: auto;
+  }
+
+  .footer-col2-CSS {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-col3-CSS {
+    text-align: right;
+    margin: auto;
+  }
+
+  .footer-privacy-link-CSS {
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+  }
+
+  .footer-privacy-link-CSS:hover {
+    color: LightSkyBlue;
+  }
+}
+
+
+
+@media only screen and (1291px <= width <= 1910px) {
+  /* Container */
+  .container-footer-CSS {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: LightSteelBlue;
+    margin: auto;
+  }
+
+  /* Section 1 */
+  .section1-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px;
+  }
+
+  .footer-logo-CSS {
+    height: 250px;
+    width: 350px;
+    margin: 0px 0px 25px;
+  }
+
+  .footer-p-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 2 & 3 */
+  .section2-footer-CSS,
+  .section3-footer-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 50px;
+  }
+
+  .footer-h1-CSS {
+    font-size: 25px;
+    font-weight: bold;
+    color: #27709f;
+  }
+
+  .footer-link-CSS,
+  .footer-contacts-CSS {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27709f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px auto 10px;
+  }
+
+  .map-CSS {
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    background-color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  /* Bar */
+  .footer-bar-CSS {
+    font-size: 17px;
+    color: White;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .footer-col1-CSS {
+    text-align: left;
+    margin: auto;
+  }
+
+  .footer-col2-CSS {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-col3-CSS {
+    text-align: right;
+    margin: auto;
+  }
+
+  .footer-privacy-link-CSS {
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+  }
+
+  .footer-privacy-link-CSS:hover {
+    color: LightSkyBlue;
+  }
+}

@@ -1,0 +1,311 @@
+/* =============== Container =============== */
+.container-privacypolicy-CSS {
+  position: relative;
+  justify-content: center;
+  width: auto;
+  margin: 75px 250px;
+}
+
+.privacypolicy-h1-CSS {
+  font-size: 50px;
+}
+
+.privacypolicy-h2-CSS {
+  font-size: 40px;
+}
+
+.privacypolicy-h3-CSS {
+  font-size: 30px;
+}
+
+.privacypolicy-p-CSS, .privacypolicy-ol-CSS {
+  font-size: 25px;
+}
+
+ol.privacypolicy-ol-CSS li.privacypolicy-li-CSS::marker {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ul.privacypolicy-ul-CSS {
+  list-style-type: disc;
+}
+
+.privacypolicy-link-CSS,
+.privacypolicy-mail-CSS {
+  text-decoration: none;
+}
+
+
+
+/* =============== Media Queries =============== */
+
+/* =============== Mobile View =============== */
+@media only screen and (250px <= width <= 550px) {
+  /* Container */
+  .container-privacypolicy-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 0px;
+  }
+
+  .privacypolicy-h1-CSS {
+    font-size: 35px;
+  }
+
+  .privacypolicy-h2-CSS {
+    font-size: 30px;
+  }
+
+  .privacypolicy-h3-CSS {
+    font-size: 25px;
+  }
+
+  .privacypolicy-p-CSS, .privacypolicy-ol-CSS {
+    font-size: 20px;
+    overflow-wrap: break-word;
+    text-decoration: none;
+  }
+
+  ol.privacypolicy-ol-CSS li.privacypolicy-li-CSS::marker {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  ul.privacypolicy-ul-CSS {
+    list-style-type: disc;
+    overflow-wrap: break-word;
+  }
+
+  .privacypolicy-link-CSS,
+  .privacypolicy-mail-CSS {
+    text-decoration: none;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 650px) {
+  /* Container */
+  .container-privacypolicy-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 25px;
+  }
+
+  .privacypolicy-h1-CSS {
+    font-size: 35px;
+  }
+
+  .privacypolicy-h2-CSS {
+    font-size: 30px;
+  }
+
+  .privacypolicy-h3-CSS {
+    font-size: 25px;
+  }
+
+  .privacypolicy-p-CSS, .privacypolicy-ol-CSS {
+    font-size: 20px;
+    overflow-wrap: break-word;
+    text-decoration: none;
+  }
+
+  ol.privacypolicy-ol-CSS li.privacypolicy-li-CSS::marker {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  ul.privacypolicy-ul-CSS {
+    list-style-type: disc;
+    overflow-wrap: break-word;
+  }
+
+  .privacypolicy-link-CSS,
+  .privacypolicy-mail-CSS {
+    text-decoration: none;
+  }
+}
+
+
+
+@media only screen and (710px <= width <= 767px) {
+  /* Container */
+  .container-privacypolicy-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 50px;
+  }
+
+  .privacypolicy-h1-CSS {
+    font-size: 35px;
+  }
+
+  .privacypolicy-h2-CSS {
+    font-size: 30px;
+  }
+
+  .privacypolicy-h3-CSS {
+    font-size: 25px;
+  }
+
+  .privacypolicy-p-CSS, .privacypolicy-ol-CSS {
+    font-size: 20px;
+    overflow-wrap: break-word;
+    text-decoration: none;
+  }
+
+  ol.privacypolicy-ol-CSS li.privacypolicy-li-CSS::marker {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  ul.privacypolicy-ul-CSS {
+    list-style-type: disc;
+    overflow-wrap: break-word;
+  }
+
+  .privacypolicy-link-CSS,
+  .privacypolicy-mail-CSS {
+    text-decoration: none;
+  }
+}
+
+
+
+/* =============== Tablet View =============== */
+@media only screen and (768px <= width <= 1023px) {
+  /* Container */
+  .container-privacypolicy-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 75px;
+  }
+
+  .privacypolicy-h1-CSS {
+    font-size: 35px;
+  }
+
+  .privacypolicy-h2-CSS {
+    font-size: 30px;
+  }
+
+  .privacypolicy-h3-CSS {
+    font-size: 25px;
+  }
+
+  .privacypolicy-p-CSS, .privacypolicy-ol-CSS {
+    font-size: 20px;
+    overflow-wrap: break-word;
+    text-decoration: none;
+  }
+
+  ol.privacypolicy-ol-CSS li.privacypolicy-li-CSS::marker {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  ul.privacypolicy-ul-CSS {
+    list-style-type: disc;
+    overflow-wrap: break-word;
+  }
+
+  .privacypolicy-link-CSS,
+  .privacypolicy-mail-CSS {
+    text-decoration: none;
+  }
+}
+
+
+
+@media only screen and (1024px <= width <= 1120px) {
+  /* Container */
+  .container-privacypolicy-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 150px;
+  }
+
+  .privacypolicy-h1-CSS {
+    font-size: 35px;
+  }
+
+  .privacypolicy-h2-CSS {
+    font-size: 30px;
+  }
+
+  .privacypolicy-h3-CSS {
+    font-size: 25px;
+  }
+
+  .privacypolicy-p-CSS, .privacypolicy-ol-CSS {
+    font-size: 20px;
+    overflow-wrap: break-word;
+    text-decoration: none;
+  }
+
+  ol.privacypolicy-ol-CSS li.privacypolicy-li-CSS::marker {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  ul.privacypolicy-ul-CSS {
+    list-style-type: disc;
+    overflow-wrap: break-word;
+  }
+
+  .privacypolicy-link-CSS,
+  .privacypolicy-mail-CSS {
+    text-decoration: none;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+  /* Container */
+  .container-privacypolicy-CSS {
+    position: relative;
+    justify-content: center;
+    width: auto;
+    margin: 50px 175px;
+  }
+
+  .privacypolicy-h1-CSS {
+    font-size: 50px;
+  }
+
+  .privacypolicy-h2-CSS {
+    font-size: 40px;
+  }
+
+  .privacypolicy-h3-CSS {
+    font-size: 30px;
+  }
+
+  .privacypolicy-p-CSS, .privacypolicy-ol-CSS {
+    font-size: 25px;
+    overflow-wrap: break-word;
+    text-decoration: none;
+  }
+
+  ol.privacypolicy-ol-CSS li.privacypolicy-li-CSS::marker {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  ul.privacypolicy-ul-CSS {
+    list-style-type: disc;
+    overflow-wrap: break-word;
+  }
+
+  .privacypolicy-link-CSS,
+  .privacypolicy-mail-CSS {
+    text-decoration: none;
+  }
+}

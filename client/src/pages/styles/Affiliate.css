@@ -1,0 +1,859 @@
+/* =============== Container =============== */
+.container-affiliate1-CSS {
+  justify-content: center;
+  padding: 75px 175px;
+  margin: auto;
+}
+
+.container-affiliate2-CSS {
+  justify-content: center;
+  background-color: #276f9f69;
+  padding: 75px 175px;
+  margin: auto;
+}
+
+.h1-affiliate-CSS {
+  font-size: 50px;
+  text-align: center;
+  color: #27709f;
+  margin: 0px auto 25px;
+}
+
+.p-affiliate-CSS {
+  font-size: 30px;
+}
+
+.form-affiliate-CSS,
+.read-affiliate-CSS {
+  text-align: center;
+}
+
+.affiliate-label-CSS {
+  font-size: larger;
+  font-weight: bold;
+  color: MidnightBlue;
+}
+
+.affiliate-label-CSS:focus-within {
+  color: SlateGrey;
+}
+
+.affiliate-text-CSS {
+  font-size: large;
+}
+
+.affiliate-text-CSS:not(:focus):placeholder-shown {
+  border: none;
+  outline: 3px solid #27709f;
+  background-color: SlateGrey;
+}
+
+.affiliate-text-CSS:focus:placeholder-shown {
+  border: none;
+  outline: 3px solid #276f9f69;
+  background-color:GhostWhite;
+}
+
+.affiliate-text-CSS:valid {
+  border: none;
+  outline: 3px solid Green;
+  background-color: HoneyDew;
+}
+
+.affiliate-text-CSS:invalid {
+  border: none;
+  outline: 3px solid Red;
+  background-color: MistyRose;
+}
+
+.affiliate-span-CSS {
+  font-size: 24px;
+  color: Red;
+}
+
+.alert-affiliate-CSS {
+  font-size: 30px;
+}
+
+.submit-affiliate-button-CSS {
+  font-size: 26px;
+  display: inline-block;
+  text-decoration: none;
+  width: 50%;
+  background-color: #27709f;
+}
+
+.affiliate-line-CSS {
+  border-bottom: 10px solid #27709f;
+  margin: auto;
+}
+
+
+/* =============== Section 1 =============== */
+.loading-affiliate-CSS {
+  justify-content: center;
+  margin: 75px 0px;
+}
+
+.loading-affiliate-spinner-CSS {
+  color: #27709f;
+  margin: 75px 0px;
+}
+
+.affiliate-search-box-CSS {
+  width: 50%;
+  margin: auto;
+}
+
+.affiliate-clear-search-button-CSS {
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  width: 25%;
+  background-color: #27709f;
+  margin: 25px auto;
+}
+
+.affiliate-search-box-result-CSS {
+  color: #27709f;
+  margin: 0px;
+}
+
+.section1-affiliate-CSS {
+  justify-content: center;
+  margin: 50px 0px 75px;
+}
+
+.affiliate-title-CSS {
+  font-size: 28px;
+}
+
+.affiliate-date-CSS {
+  font-size: 26px;
+}
+
+.affiliate-description-CSS {
+  font-size: 24px;
+  white-space: pre-wrap;
+}
+
+.affiliate-button1-CSS {
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  width: auto;
+  background-color: #27709f;
+  margin: auto;
+}
+
+.affiliate-button2-CSS {
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  width: auto;
+  background-color: Red;
+  margin: auto;
+}
+
+.title-affiliate-modal-CSS {
+  margin: 20px 0px 10px;
+}
+
+.affiliate-link-button-CSS {
+  background-color: #27709f;
+  margin: 0px 50px 25px;
+}
+
+.affiliate-cancel-button-CSS {
+  margin: 0px 50px 25px;
+}
+
+.affiliate-save-button-CSS {
+  background-color: #27709f;
+  margin: 0px 50px 25px;
+}
+
+.affiliate-delete-button-CSS {
+  background-color: Red;
+  margin: 0px 50px 25px;
+}
+
+
+/* =============== Section 2 =============== */
+.section2-affiliate-CSS {
+  justify-content: center;
+  margin: 50px 0px 75px;
+}
+
+
+
+/* =============== Media Queries =============== */
+
+/* =============== Mobile View =============== */
+@media only screen and (250px <= width <= 550px) {
+  /* Container */
+  .container-affiliate1-CSS {
+    justify-content: center;
+    padding: 50px 25px;
+    margin: auto;
+  }
+
+  .container-affiliate2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 50px 25px;
+    margin: auto;
+  }
+
+  .h1-affiliate-CSS {
+    font-size: 30px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .p-affiliate-CSS {
+    font-size: 20px;
+  }
+
+  .affiliate-label-CSS {
+    font-size: large;
+    color: MidnightBlue;
+  }
+
+  .affiliate-text-CSS {
+    font-size: medium;
+  }
+
+  .affiliate-span-CSS {
+    font-size: 22px;
+    color: Red;
+  }
+
+  .submit-affiliate-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-affiliate-CSS {
+    justify-content: center;
+    margin: 50px 0px;
+  }
+
+  .loading-affiliate-spinner-CSS {
+    color: #27709f;
+    margin: 50px 0px;
+  }
+
+  .affiliate-search-box-CSS {
+    width: 100%;
+    margin: auto;
+  }
+
+  .affiliate-clear-search-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-affiliate-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+
+  .affiliate-title-CSS {
+    font-size: 26px;
+  }
+
+  .affiliate-date-CSS {
+    font-size: 24px;
+  }
+
+  .affiliate-description-CSS {
+    font-size: 22px;
+  }
+
+  .affiliate-button1-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .affiliate-button2-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-affiliate-modal-CSS {
+    margin: 10px 0px 5px;
+  }
+
+  .affiliate-cancel-button-CSS {
+    margin: 0px 25px 10px;
+  }
+
+  .affiliate-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 25px 10px;
+  }
+
+  .affiliate-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 25px 10px;
+  }
+
+  /* Section 2 */
+  .section2-affiliate-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 767px) {
+  /* Container */
+  .container-affiliate1-CSS {
+    justify-content: center;
+    padding: 50px 25px;
+    margin: auto;
+  }
+
+  .container-affiliate2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 50px 25px;
+    margin: auto;
+  }
+
+  .h1-affiliate-CSS {
+    font-size: 30px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .p-affiliate-CSS {
+    font-size: 20px;
+  }
+
+  .affiliate-label-CSS {
+    font-size: large;
+    color: MidnightBlue;
+  }
+
+  .affiliate-text-CSS {
+    font-size: medium;
+  }
+
+  .affiliate-span-CSS {
+    font-size: 22px;
+    color: Red;
+  }
+
+  .submit-affiliate-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-affiliate-CSS {
+    justify-content: center;
+    margin: 50px 0px;
+  }
+
+  .loading-affiliate-spinner-CSS {
+    color: #27709f;
+    margin: 50px 0px;
+  }
+
+  .affiliate-search-box-CSS {
+    width: 100%;
+    margin: auto;
+  }
+
+  .affiliate-clear-search-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: 75%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-affiliate-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+
+  .affiliate-title-CSS {
+    font-size: 26px;
+  }
+
+  .affiliate-date-CSS {
+    font-size: 24px;
+  }
+
+  .affiliate-description-CSS {
+    font-size: 22px;
+  }
+
+  .affiliate-button1-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .affiliate-button2-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-affiliate-modal-CSS {
+    margin: 10px 0px 5px;
+  }
+
+  .affiliate-cancel-button-CSS {
+    margin: 0px 25px 10px;
+  }
+
+  .affiliate-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 25px 10px;
+  }
+
+  .affiliate-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 25px 10px;
+  }
+
+  /* Section 2 */
+  .section2-affiliate-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+}
+
+
+
+/* =============== Tablet View =============== */
+@media only screen and (768px <= width <= 1120px) {
+  /* Container */
+  .container-affiliate1-CSS {
+    justify-content: center;
+    padding: 50px 25px;
+    margin: auto;
+  }
+
+  .container-affiliate2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 50px 25px;
+    margin: auto;
+  }
+
+  .h1-affiliate-CSS {
+    font-size: 30px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .p-affiliate-CSS {
+    font-size: 20px;
+  }
+
+  .affiliate-label-CSS {
+    font-size: large;
+    color: MidnightBlue;
+  }
+
+  .affiliate-text-CSS {
+    font-size: medium;
+  }
+
+  .affiliate-span-CSS {
+    font-size: 22px;
+    color: Red;
+  }
+
+  .submit-affiliate-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-affiliate-CSS {
+    justify-content: center;
+    margin: 50px 0px;
+  }
+
+  .loading-affiliate-spinner-CSS {
+    color: #27709f;
+    margin: 50px 0px;
+  }
+
+  .affiliate-search-box-CSS {
+    width: 100%;
+    margin: auto;
+  }
+
+  .affiliate-clear-search-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: 75%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-affiliate-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+
+  .affiliate-title-CSS {
+    font-size: 26px;
+  }
+
+  .affiliate-date-CSS {
+    font-size: 24px;
+  }
+
+  .affiliate-description-CSS {
+    font-size: 22px;
+  }
+
+  .affiliate-button1-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .affiliate-button2-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-affiliate-modal-CSS {
+    margin: 10px 0px 5px;
+  }
+
+  .affiliate-cancel-button-CSS {
+    margin: 0px 25px 10px;
+  }
+
+  .affiliate-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 25px 10px;
+  }
+
+  .affiliate-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 25px 10px;
+  }
+
+  /* Section 2 */
+  .section2-affiliate-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+  /* Container */
+  .container-affiliate1-CSS {
+    justify-content: center;
+    padding: 75px 175px;
+    margin: auto;
+  }
+
+  .container-affiliate2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 75px 175px;
+    margin: auto;
+  }
+
+  .h1-affiliate-CSS {
+    font-size: 50px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .p-affiliate-CSS {
+    font-size: 30px;
+  }
+
+  .affiliate-label-CSS {
+    font-size: larger;
+    color: MidnightBlue;
+  }
+
+  .affiliate-text-CSS {
+    font-size: large;
+  }
+
+  .affiliate-span-CSS {
+    font-size: 24px;
+    color: Red;
+  }
+
+  .submit-affiliate-button-CSS {
+    font-size: 26px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-affiliate-CSS {
+    justify-content: center;
+    margin: 75px 0px;
+  }
+
+  .loading-affiliate-spinner-CSS {
+    color: #27709f;
+    margin: 75px 0px;
+  }
+
+  .affiliate-search-box-CSS {
+    width: 75%;
+    margin: auto;
+  }
+
+  .affiliate-clear-search-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-affiliate-CSS {
+    justify-content: center;
+    margin: 50px 0px 75px;
+  }
+
+  .affiliate-title-CSS {
+    font-size: 28px;
+  }
+
+  .affiliate-date-CSS {
+    font-size: 26px;
+  }
+
+  .affiliate-description-CSS {
+    font-size: 24px;
+  }
+
+  .affiliate-button1-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .affiliate-button2-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-affiliate-modal-CSS {
+    margin: 20px 0px 10px;
+  }
+
+  .affiliate-cancel-button-CSS {
+    margin: 0px 50px 35px;
+  }
+
+  .affiliate-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 50px 35px;
+  }
+
+  .affiliate-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 50px 35px;
+  }
+
+  /* Section 2 */
+  .section2-affiliate-CSS {
+    justify-content: center;
+    margin: 50px 0px 75px;
+  }
+}
+
+
+
+/* =============== Drop Zone Area (Cloudinary) =============== */
+.affiliate-dropzone-CSS {
+  background-color: #276f9f69;
+  border: none;
+  border-radius: 7px;
+  outline: 3px solid #27709f;
+  padding: 50px;
+  margin: auto;
+}
+
+.affiliate-area-preview-CSS {
+  display: inline-flex;
+  background-color: SlateGrey;
+  border: none;
+  border-radius: 13px;
+  outline: 3px solid #27709f;
+  box-sizing: border-box;
+  height: auto;
+  width: auto;
+  padding: 7px;
+  margin: auto;
+}
+
+.display-affiliate-preview-CSS {
+  height: auto;
+  max-width: 500px;
+}
+
+.update-affiliate-preview-CSS {
+  height: auto;
+  max-width: 450px;
+}
+
+.uploading-affiliate-CSS {
+  justify-content: center;
+  margin: 25px 0px;
+}
+
+.uploading-affiliate-spinner-CSS {
+  color: MidnightBlue;
+  margin: 25px 0px 50px;
+}
+
+
+
+/* =============== Media Queries (Cloudinary) =============== */
+
+/* =============== Mobile View (Cloudinary) =============== */
+@media only screen and (250px <= width <= 550px) {
+  .affiliate-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 25px;
+    margin: auto;
+  }
+
+  .display-affiliate-preview-CSS,
+  .update-affiliate-preview-CSS {
+    height: auto;
+    max-width: 250px;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 767px) {
+  .affiliate-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 25px;
+    margin: auto;
+  }
+
+  .display-affiliate-preview-CSS,
+  .update-affiliate-preview-CSS {
+    height: auto;
+    max-width: 250px;
+  }
+}
+
+
+
+/* =============== Tablet View (Cloudinary) =============== */
+@media only screen and (768px <= width <= 1120px) {
+  .affiliate-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 25px;
+    margin: auto;
+  }
+
+  .display-affiliate-preview-CSS,
+  .update-affiliate-preview-CSS {
+    height: auto;
+    max-width: 350px;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+  .affiliate-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 50px;
+    margin: auto;
+  }
+
+  .display-affiliate-preview-CSS {
+    height: auto;
+    max-width: 500px;
+  }
+
+  .update-affiliate-preview-CSS {
+    height: auto;
+    max-width: 450px;
+  }
+}

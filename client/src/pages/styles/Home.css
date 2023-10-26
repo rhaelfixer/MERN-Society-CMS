@@ -1,0 +1,1767 @@
+/* =============== Container =============== */
+.container-home-CSS {
+  position: relative;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  z-index: 1;
+}
+
+.fade-in-zoom-in-CSS {
+  animation: zoom-in 2s linear;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.5, 0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+.welcome-CSS {
+  font-size: 70px;
+  margin-top: 30px;
+  color: #27709f;
+  margin-bottom: 50px;
+}
+
+.home-p-CSS {
+  font-size: 25px;
+  text-align: left;
+}
+
+.society-img-CSS {
+  height: 450px;
+  width: 650px;
+  background-color: MediumBlue;
+  margin: 25px;
+}
+
+
+/* =============== Section 1 =============== */
+.section1-home-CSS {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 550px;
+  background-color: #27709f;
+  margin-top: -1px;
+}
+
+.section1-1-home-CSS {
+  display: block;
+  align-items: center;
+}
+
+.intro-h1-CSS {
+  font-size: 70px;
+  text-align: center;
+  color: White;
+  margin-top: 50px;
+}
+
+.intro-p-CSS {
+  font-size: 25px;
+  text-align: left;
+  color: White;
+  margin-top: 25px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.section1-2-home-CSS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.know-more-button-CSS {
+  width: auto;
+  background-color: Orange;
+  margin-top: 30px;
+}
+
+.know-more-CSS {
+  font-size: 30px;
+}
+
+
+/* =============== Section 2 =============== */
+.section2-home-CSS {
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.aim-img-CSS {
+  height: 500px;
+  width: 650px;
+  margin-top: 100px;
+}
+
+.aim-h1-CSS {
+  font-size: 70px;
+  text-align: center;
+  margin: 25px;
+}
+
+.aim-ul-CSS {
+  font-size: 25px;
+}
+
+
+/* =============== Section 3 =============== */
+.section3-home-CSS {
+  justify-content: center;  
+  background-color:#276f9f69;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.mern-h1-CSS {
+  font-size: 70px;
+  text-align: center;
+}
+
+.mern-li-CSS {
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.home-training-img-CSS {
+  height: 450px;
+  width: 650px;
+  margin: 50px;
+}
+
+.carousel-CSS {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.carousel-img-CSS {
+  height: 400px;
+  width: 500px;
+  margin: 18px;
+}
+
+
+/* =============== Section 4 =============== */
+.section4-home-CSS {
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.objectives-h1-CSS {
+  font-size: 50px;
+  text-align: center;
+}
+
+.objectives-h5-CSS {
+  font-size: 30px;
+  text-align: center;
+}
+
+.objectives-p-CSS {
+  font-size: 25px;
+  position: relative;
+}
+
+.objectives-img-CSS {
+  height: 400px;
+  width: 500px;
+  margin: 100px 0px;
+}
+
+.sign-event-button-CSS {
+  width: 100%;
+  background-color: Orange;
+  margin: 25px auto 0px;
+}
+
+.sign-event-text-CSS {
+  font-size: 30px;
+}
+
+
+
+/* =============== Media Queries =============== */
+
+/* =============== Mobile View =============== */
+@media only screen and (250px <= width <= 425px) {
+  /* Container */
+  .container-home-CSS {
+    position: relative;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    z-index: 1;
+  }
+
+  .welcome-CSS {
+    font-size: 35px;
+    color: #27709f;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+  }
+
+  .home-p-CSS {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .society-img-CSS {
+    height: 300px;
+    width: 600px;
+    margin: 0px;
+  }
+
+  /* Section 1 */
+  .section1-home-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 550px;
+    background-color: #27709f;
+    margin-top: -1px;
+  }
+
+  .section1-1-home-CSS {
+    display: block;
+    align-items: center;
+  }
+
+  .intro-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    color: White;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .intro-p-CSS {
+    font-size: 20px;
+    text-align: left;
+    color: White;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .section1-2-home-CSS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .know-more-button-CSS {
+    width: auto;
+    background-color: Orange;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .know-more-CSS {
+    font-size: 30px;
+  }
+
+  /* Section 2 */
+  .section2-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .aim-img-CSS {
+    height: 250px;
+    width: 500px;
+    margin: 25px;
+  }
+
+  .aim-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .aim-ul-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 3 */
+  .section3-home-CSS {
+    justify-content: center;  
+    background-color:#276f9f69;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+  }
+
+  .mern-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .mern-li-CSS {
+    font-size: 25px;
+    display: flex;
+    margin: 0px;
+  }
+
+  .mern-p-CSS {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+
+  .home-training-img-CSS {
+    height: 200px;
+    width: 600px;
+    margin: 25px;
+  }
+
+  .carousel-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .carousel-img-CSS {
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+  }
+
+  /* Section 4 */
+  .section4-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .objectives-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .objectives-h5-CSS {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .objectives-p-CSS {
+    font-size: 20px;
+    position: relative;
+  }
+
+  .objectives-img-CSS {
+    height: 300px;
+    width: 400px;
+    margin: 0px 0px 25px;
+  }
+
+  .sign-event-button-CSS {
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto 0px;
+  }
+
+  .sign-event-text-CSS {
+    font-size: 30px;
+  }
+}
+
+
+
+@media only screen and (426px <= width <= 499px) {
+  /* Container */
+  .container-home-CSS {
+    position: relative;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    z-index: 1;
+  }
+
+  .welcome-CSS {
+    font-size: 35px;
+    color: #27709f;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+  }
+
+  .home-p-CSS {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .society-img-CSS {
+    height: 300px;
+    width: 600px;
+    margin: 0px;
+  }
+
+  /* Section 1 */
+  .section1-home-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 550px;
+    background-color: #27709f;
+    margin-top: -1px;
+  }
+
+  .section1-1-home-CSS {
+    display: block;
+    align-items: center;
+  }
+
+  .intro-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    color: White;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .intro-p-CSS {
+    font-size: 20px;
+    text-align: left;
+    color: White;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .section1-2-home-CSS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .know-more-button-CSS {
+    width: auto;
+    background-color: Orange;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .know-more-CSS {
+    font-size: 30px;
+  }
+
+  /* Section 2 */
+  .section2-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .aim-img-CSS {
+    height: 250px;
+    width: 500px;
+    margin: 25px;
+  }
+
+  .aim-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .aim-ul-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 3 */
+  .section3-home-CSS {
+    justify-content: center;  
+    background-color:#276f9f69;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+  }
+
+  .mern-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .mern-li-CSS {
+    font-size: 25px;
+    display: flex;
+    margin: 0px;
+  }
+
+  .mern-p-CSS {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+
+  .home-training-img-CSS {
+    height: 200px;
+    width: 600px;
+    margin: 25px;
+  }
+
+  .carousel-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .carousel-img-CSS {
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+  }
+
+  /* Section 4 */
+  .section4-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .objectives-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .objectives-h5-CSS {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .objectives-p-CSS {
+    font-size: 20px;
+    position: relative;
+  }
+
+  .objectives-img-CSS {
+    height: 300px;
+    width: 400px;
+    margin: 0px 0px 25px;
+  }
+
+  .sign-event-button-CSS {
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto 0px;
+  }
+
+  .sign-event-text-CSS {
+    font-size: 30px;
+  }
+}
+
+
+
+@media only screen and (500px <= width <= 550px) {
+  /* Container */
+  .container-home-CSS {
+    position: relative;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    z-index: 1;
+  }
+
+  .welcome-CSS {
+    font-size: 35px;
+    color: #27709f;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+  }
+
+  .home-p-CSS {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .society-img-CSS {
+    height: 300px;
+    width: 600px;
+    margin: 0px;
+  }
+
+  /* Section 1 */
+  .section1-home-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 550px;
+    background-color: #27709f;
+    margin-top: -1px;
+  }
+
+  .section1-1-home-CSS {
+    display: block;
+    align-items: center;
+  }
+
+  .intro-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    color: White;
+    margin-top: 50px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .intro-p-CSS {
+    font-size: 20px;
+    text-align: left;
+    color: White;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .section1-2-home-CSS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .know-more-button-CSS {
+    width: auto;
+    background-color: Orange;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .know-more-CSS {
+    font-size: 30px;
+  }
+
+  /* Section 2 */
+  .section2-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .aim-img-CSS {
+    height: 250px;
+    width: 500px;
+    margin: 25px;
+  }
+
+  .aim-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .aim-ul-CSS {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  /* Section 3 */
+  .section3-home-CSS {
+    justify-content: center;  
+    background-color:#276f9f69;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+  }
+
+  .mern-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  .mern-li-CSS {
+    font-size: 25px;
+    display: flex;
+    margin: 0px;
+  }
+
+  .mern-p-CSS {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+
+  .home-training-img-CSS {
+    height: 200px;
+    width: 600px;
+    margin: 25px;
+  }
+
+  .carousel-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .carousel-img-CSS {
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+  }
+
+  /* Section 4 */
+  .section4-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .objectives-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .objectives-h5-CSS {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .objectives-p-CSS {
+    font-size: 20px;
+    position: relative;
+  }
+
+  .objectives-img-CSS {
+    height: 300px;
+    width: 400px;
+    margin: 0px 0px 25px;
+  }
+
+  .sign-event-button-CSS {
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto 0px;
+  }
+
+  .sign-event-text-CSS {
+    font-size: 30px;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 650px) {
+  /* Container */
+  .container-home-CSS {
+    position: relative;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    z-index: 1;
+  }
+
+  .welcome-CSS {
+    font-size: 35px;
+    color: #27709f;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 0px;
+  }
+
+  .home-p-CSS {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .society-img-CSS {
+    height: 300px;
+    width: 600px;
+    margin: 0px;
+  }
+
+  /* Section 1 */
+  .section1-home-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 550px;
+    background-color: #27709f;
+    margin-top: -1px;
+  }
+
+  .section1-1-home-CSS {
+    display: block;
+    align-items: center;
+  }
+
+  .intro-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    color: White;
+    margin-top: 50px;
+  }
+
+  .intro-p-CSS {
+    font-size: 20px;
+    text-align: left;
+    color: White;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .section1-2-home-CSS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .know-more-button-CSS {
+    width: auto;
+    background-color: Orange;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .know-more-CSS {
+    font-size: 30px;
+  }
+
+  /* Section 2 */
+  .section2-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .aim-img-CSS {
+    height: 250px;
+    width: 500px;
+    margin: 25px;
+  }
+
+  .aim-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .aim-ul-CSS {
+    font-size: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  /* Section 3 */
+  .section3-home-CSS {
+    justify-content: center;  
+    background-color:#276f9f69;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+  }
+
+  .mern-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .mern-li-CSS {
+    font-size: 25px;
+    display: flex;
+    margin: 0px;
+  }
+
+  .mern-p-CSS {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+
+  .home-training-img-CSS {
+    height: 200px;
+    width: 600px;
+    margin: 25px;
+  }
+
+  .carousel-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .carousel-img-CSS {
+    height: 400px;
+    width: 500px;
+    margin: 18px;
+  }
+
+  /* Section 4 */
+  .section4-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .objectives-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .objectives-h5-CSS {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .objectives-p-CSS {
+    font-size: 20px;
+    position: relative;
+  }
+
+  .objectives-img-CSS {
+    height: 300px;
+    width: 400px;
+    margin: 0px 0px 25px;
+  }
+
+  .sign-event-button-CSS {
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto 0px;
+  }
+
+  .sign-event-text-CSS {
+    font-size: 30px;
+  }
+}
+
+
+
+@media only screen and (710px <= width <= 767px) {
+  /* Container */
+  .container-home-CSS {
+    position: relative;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    z-index: 1;
+  }
+
+  .welcome-CSS {
+    font-size: 35px;
+    color: #27709f;
+    margin-top: 15px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 0px;
+  }
+
+  .home-p-CSS {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .society-img-CSS {
+    height: 300px;
+    width: 600px;
+    margin: 0px;
+  }
+
+  /* Section 1 */
+  .section1-home-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 550px;
+    background-color: #27709f;
+    margin-top: -1px;
+  }
+
+  .section1-1-home-CSS {
+    display: block;
+    align-items: center;
+  }
+
+  .intro-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    color: White;
+    margin-top: 50px;
+  }
+
+  .intro-p-CSS {
+    font-size: 20px;
+    text-align: left;
+    color: White;
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .section1-2-home-CSS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .know-more-button-CSS {
+    width: auto;
+    background-color: Orange;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .know-more-CSS {
+    font-size: 30px;
+  }
+
+  /* Section 2 */
+  .section2-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .aim-img-CSS {
+    height: 250px;
+    width: 500px;
+    margin: 25px;
+  }
+
+  .aim-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .aim-ul-CSS {
+    font-size: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  /* Section 3 */
+  .section3-home-CSS {
+    justify-content: center;  
+    background-color:#276f9f69;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+  }
+
+  .mern-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .mern-li-CSS {
+    font-size: 25px;
+    display: flex;
+    margin: 0px;
+  }
+
+  .mern-p-CSS {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+
+  .home-training-img-CSS {
+    height: 200px;
+    width: 600px;
+    margin: 25px;
+  }
+
+  .carousel-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .carousel-img-CSS {
+    height: 400px;
+    width: 500px;
+    margin: 18px;
+  }
+
+  /* Section 4 */
+  .section4-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .objectives-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .objectives-h5-CSS {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .objectives-p-CSS {
+    font-size: 20px;
+    position: relative;
+  }
+
+  .objectives-img-CSS {
+    height: 300px;
+    width: 400px;
+    margin: 0px 0px 25px;
+  }
+
+  .sign-event-button-CSS {
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto 0px;
+  }
+
+  .sign-event-text-CSS {
+    font-size: 30px;
+  }
+}
+
+
+
+/* =============== Tablet View =============== */
+@media only screen and (768px <= width <= 1023px) {
+  /* Container */
+  .container-home-CSS {
+    position: relative;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    z-index: 1;
+  }
+
+  .welcome-CSS {
+    font-size: 35px;
+    color: #27709f;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  .home-p-CSS {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .society-img-CSS {
+    height: 300px;
+    width: 600px;
+    margin: 0px;
+  }
+
+  /* Section 1 */
+  .section1-home-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 550px;
+    background-color: #27709f;
+    margin-top: -1px;
+  }
+
+  .section1-1-home-CSS {
+    display: block;
+    align-items: center;
+  }
+
+  .intro-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    color: White;
+    margin-top: 50px;
+  }
+
+  .intro-p-CSS {
+    font-size: 20px;
+    text-align: left;
+    color: White;
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .section1-2-home-CSS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .know-more-button-CSS {
+    width: auto;
+    background-color: Orange;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .know-more-CSS {
+    font-size: 30px;
+  }
+
+  /* Section 2 */
+  .section2-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .aim-img-CSS {
+    height: 250px;
+    width: 500px;
+    margin-top: 200px;
+  }
+
+  .aim-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .aim-ul-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 3 */
+  .section3-home-CSS {
+    justify-content: center;  
+    background-color:#276f9f69;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+  }
+
+  .mern-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .mern-li-CSS {
+    font-size: 25px;
+    display: flex;
+    margin: 0px;
+  }
+
+  .mern-p-CSS {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+
+  .home-training-img-CSS {
+    height: 350px;
+    width: 800px;
+    margin: 25px;
+  }
+
+  .carousel-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .carousel-img-CSS {
+    height: 400px;
+    width: 500px;
+    margin: 18px;
+  }
+
+  /* Section 4 */
+  .section4-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .objectives-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .objectives-h5-CSS {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .objectives-p-CSS {
+    font-size: 20px;
+    position: relative;
+  }
+
+  .objectives-img-CSS {
+    height: 300px;
+    width: 400px;
+    margin: 200px 0px;
+  }
+
+  .sign-event-button-CSS {
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto 0px;
+  }
+
+  .sign-event-text-CSS {
+    font-size: 30px;
+  }
+}
+
+
+
+@media only screen and (1024px <= width <= 1120px) {
+  /* Container */
+  .container-home-CSS {
+    position: relative;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    z-index: 1;
+  }
+
+  .welcome-CSS {
+    font-size: 35px;
+    color: #27709f;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  .home-p-CSS {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .society-img-CSS {
+    height: 300px;
+    width: 600px;
+    margin: 0px;
+  }
+
+  /* Section 1 */
+  .section1-home-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 550px;
+    background-color: #27709f;
+    margin-top: -1px;
+  }
+
+  .section1-1-home-CSS {
+    display: block;
+    align-items: center;
+  }
+
+  .intro-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    color: White;
+    margin-top: 50px;
+  }
+
+  .intro-p-CSS {
+    font-size: 25px;
+    text-align: left;
+    color: White;
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .section1-2-home-CSS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .know-more-button-CSS {
+    width: auto;
+    background-color: Orange;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  .know-more-CSS {
+    font-size: 30px;
+  }
+
+  /* Section 2 */
+  .section2-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .aim-img-CSS {
+    height: 250px;
+    width: 500px;
+    margin-top: 200px;
+  }
+
+  .aim-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .aim-ul-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 3 */
+  .section3-home-CSS {
+    justify-content: center;  
+    background-color:#276f9f69;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+  }
+
+  .mern-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .mern-li-CSS {
+    font-size: 25px;
+    display: flex;
+    margin: 0px;
+  }
+
+  .mern-p-CSS {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+
+  .home-training-img-CSS {
+    height: 350px;
+    width: 800px;
+    margin: 25px;
+  }
+
+  .carousel-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .carousel-img-CSS {
+    height: 400px;
+    width: 500px;
+    margin: 18px;
+  }
+
+  /* Section 4 */
+  .section4-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .objectives-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .objectives-h5-CSS {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .objectives-p-CSS {
+    font-size: 20px;
+    position: relative;
+  }
+
+  .objectives-img-CSS {
+    height: 300px;
+    width: 400px;
+    margin: 150px 0px;
+  }
+
+  .sign-event-button-CSS {
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto 0px;
+  }
+
+  .sign-event-text-CSS {
+    font-size: 30px;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+  /* Container */
+  .container-home-CSS {
+    position: relative;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    z-index: 1;
+  }
+
+  .welcome-CSS {
+    font-size: 35px;
+    color: #27709f;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  .home-p-CSS {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .society-img-CSS {
+    height: 300px;
+    width: 600px;
+    margin: 25px;
+  }
+
+  /* Section 1 */
+  .section1-home-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 550px;
+    background-color: #27709f;
+    margin-top: -1px;
+  }
+
+  .section1-1-home-CSS {
+    display: block;
+    align-items: center;
+  }
+
+  .intro-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    color: White;
+    margin-top: 50px;
+  }
+
+  .intro-p-CSS {
+    font-size: 25px;
+    text-align: left;
+    color: White;
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .section1-2-home-CSS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .know-more-button-CSS {
+    width: auto;
+    background-color: Orange;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  .know-more-CSS {
+    font-size: 30px;
+  }
+
+  /* Section 2 */
+  .section2-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .aim-img-CSS {
+    height: 250px;
+    width: 500px;
+    margin-top: 140px;
+  }
+
+  .aim-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .aim-ul-CSS {
+    font-size: 20px;
+  }
+
+  /* Section 3 */
+  .section3-home-CSS {
+    justify-content: center;  
+    background-color:#276f9f69;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+  }
+
+  .mern-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .mern-li-CSS {
+    font-size: 25px;
+    display: flex;
+    margin: 0px;
+  }
+
+  .mern-p-CSS {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+
+  .home-training-img-CSS {
+    height: 350px;
+    width: 800px;
+    margin: 25px;
+  }
+
+  .carousel-CSS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .carousel-img-CSS {
+    height: 400px;
+    width: 500px;
+    margin: 18px;
+  }
+
+  /* Section 4 */
+  .section4-home-CSS {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .objectives-h1-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .objectives-h5-CSS {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .objectives-p-CSS {
+    font-size: 20px;
+    position: relative;
+  }
+
+  .objectives-img-CSS {
+    height: 300px;
+    width: 400px;
+    margin: 150px 0px;
+  }
+
+  .sign-event-button-CSS {
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto 0px;
+  }
+
+  .sign-event-text-CSS {
+    font-size: 30px;
+  }
+}
+
+
+
+/* =============== Custom Checkmark =============== */
+ul.aim-ul-CSS,
+ul.mern-ul-CSS {
+  list-style: none;
+  margin-top: 25px;
+}
+
+ul.aim-ul-CSS li:before,
+ul.mern-ul-CSS li:before {
+  content: "☑";
+  margin-right: 15px;
+}
+
+
+
+/* =============== Media Query (Custom Checkmark) =============== */
+@media only screen and (width <= 1910px) {
+  ul.aim-ul-CSS,
+  ul.mern-ul-CSS {
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  ul.aim-ul-CSS li:before,
+  ul.mern-ul-CSS li:before {
+    content: "☑";
+    margin-right: 10px;
+  }
+}

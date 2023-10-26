@@ -1,0 +1,417 @@
+/* =============== Container =============== */
+.container-account-CSS {
+  justify-content: center;
+  margin: 75px 0px 25px;
+}
+
+.account-form-CSS {
+  text-align: center;
+  color: #27709f;
+}
+
+.account-spinner-CSS {
+  color: #27709f;
+  margin: 75px 0px;
+}
+
+
+/* =============== Section 1 =============== */
+.section1-account-CSS {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.user-form-CSS {
+  font-size: 24px;
+}
+
+.account-label-CSS {
+  font-size: 26px;
+  color:#27709f;
+  display: inline-block;
+  text-align: right;
+  width: 261px;
+  margin: 0px;
+}
+
+.account-text-CSS,
+.account-select-CSS {
+  float: right;
+  width: 65%;
+}
+
+.span-1-account-CSS {
+  display: inline-block;
+  margin-left: 35%;
+}
+
+.account-symbol-CSS {
+  color: Red;
+}
+
+.alert-sign-account-CSS {
+  font-size: 30px;
+}
+
+.account-require-password-CSS {
+  width: 34%;
+  color: SteelBlue;
+}
+
+.span-2-account-CSS {
+  display: inline-block;
+  margin-left: 0%;
+}
+
+.account-text-CSS:not(:focus)::placeholder,
+.account-select-CSS:not(:focus) {
+  color: GhostWhite;
+}
+
+.account-text-CSS:not(:focus):placeholder-shown,
+.account-select-CSS:not(:focus) {
+  border: none;
+  outline: 3px solid #27709f;
+  background-color: SlateGrey;
+}
+
+.account-text-CSS:focus:placeholder-shown,
+.account-select-CSS:focus {
+  border: none;
+  outline: 3px solid #276f9f69;
+  background-color:GhostWhite;
+}
+
+.account-text-CSS:valid {
+  border: none;
+  outline: 3px solid Green;
+  background-color: HoneyDew;
+}
+
+.account-text-CSS:invalid {
+  border: none;
+  outline: 3px solid Red;
+  background-color: MistyRose;
+}
+
+.account-button-CSS {
+  font-size: 26px;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  background-color: Orange;
+  margin: 25px auto;
+}
+
+.admin-control-panel-button-CSS {
+  font-size: 26px;
+  display: inline-block;
+  text-decoration: none;
+  width: auto;
+  background-color: Orange;
+  margin: 0px auto 75px;
+}
+
+
+
+/* =============== Media Queries =============== */
+
+/* =============== Mobile View =============== */
+@media only screen and (250px <= width <= 550px) {
+  /* Container */
+  .container-account-CSS {
+    margin: 50px 0px 25px;
+  }
+
+  .account-spinner-CSS {
+    margin: 50px 0px;
+  }
+
+  /* Section 1 */
+  .section1-account-CSS {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .user-form-CSS {
+    font-size: 20px;
+  }
+
+  .account-label-CSS {
+    font-size: 22px;
+    color:#27709f;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .account-text-CSS,
+  .account-select-CSS {
+    text-align: center;
+    width: 100%;
+  }
+
+  .span-1-account-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .account-require-password-CSS {
+    width: 100%;
+    color: SteelBlue;
+  }
+
+  .span-2-account-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .account-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto;
+  }
+
+  .admin-control-panel-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Orange;
+    margin: 0px auto 50px;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 767px) {
+  /* Container */
+  .container-account-CSS {
+    margin: 60px 0px 30px;
+  }
+
+  .account-spinner-CSS {
+    margin: 60px 0px;
+  }
+
+  /* Section 1 */
+  .section1-account-CSS {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .account-form-CSS {
+    font-size: 22px;
+  }
+
+  .account-label-CSS {
+    font-size: 24px;
+    color:#27709f;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .account-text-CSS,
+  .account-select-CSS {
+    text-align: center;
+    width: 100%;
+  }
+
+  .span-1-account-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .account-require-password-CSS {
+    width: 100%;
+    color: SteelBlue;
+  }
+
+  .span-2-account-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .account-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto;
+  }
+
+  .admin-control-panel-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Orange;
+    margin: 0px auto 60px;
+  }
+}
+
+
+
+/* =============== Tablet View =============== */
+@media only screen and (768px <= width <= 1120px) {
+  /* Container */
+  .container-account-CSS {
+    margin: 75px 0px 25px;
+  }
+
+  .account-spinner-CSS {
+    margin: 75px 0px;
+  }
+
+  /* Section 1 */
+  .section1-account-CSS {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .user-form-CSS {
+    font-size: 24px;
+  }
+
+  .account-label-CSS {
+    font-size: 26px;
+    color:#27709f;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .account-text-CSS,
+  .account-select-CSS {
+    text-align: center;
+    width: 100%;
+  }
+
+  .span-1-account-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .account-require-password-CSS {
+    width: 100%;
+    color: SteelBlue;
+  }
+
+  .span-2-account-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 200%;
+    margin-left: 0%;
+  }
+
+  .account-button-CSS {
+    font-size: 26px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto;
+  }
+
+  .admin-control-panel-button-CSS {
+    font-size: 26px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Orange;
+    margin: 0px auto 75px;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+  /* Container */
+  .container-account-CSS {
+    margin: 75px 0px 25px;
+  }
+
+  .account-spinner-CSS {
+    margin: 75px 0px;
+  }
+
+  /* Section 1 */
+  .section1-account-CSS {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .user-form-CSS {
+    font-size: 24px;
+  }
+
+  .account-label-CSS {
+    font-size: 26px;
+    color:#27709f;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .account-text-CSS,
+  .account-select-CSS {
+    text-align: center;
+    width: 100%;
+  }
+
+  .span-1-account-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .account-require-password-CSS {
+    width: 35%;
+    color: SteelBlue;
+  }
+
+  .span-2-account-CSS {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .account-button-CSS {
+    font-size: 26px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    background-color: Orange;
+    margin: 25px auto;
+  }
+
+  .admin-control-panel-button-CSS {
+    font-size: 26px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Orange;
+    margin: 0px auto 75px;
+  }
+}

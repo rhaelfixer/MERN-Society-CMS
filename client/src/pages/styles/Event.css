@@ -1,0 +1,838 @@
+/* =============== Container =============== */
+.container-event1-CSS {
+  justify-content: center;
+  padding: 75px 0px;
+  margin: auto;
+}
+
+.container-event2-CSS {
+  justify-content: center;
+  background-color: #276f9f69;
+  padding: 75px 0px;
+  margin: auto;
+}
+
+.h1-event-CSS {
+  font-size: 50px;
+  text-align: center;
+  color: #27709f;
+  margin: 0px auto 25px;
+}
+
+.form-event-CSS {
+  text-align: center;
+}
+
+.event-label-CSS {
+  font-size: larger;
+  font-weight: bold;
+  color: MidnightBlue;
+}
+
+.event-label-CSS:focus-within {
+  color: SlateGrey;
+}
+
+.event-text-CSS {
+  font-size: large;
+}
+
+.event-text-CSS:not(:focus):placeholder-shown {
+  border: none;
+  outline: 3px solid #27709f;
+  background-color: SlateGrey;
+}
+
+.event-text-CSS:focus:placeholder-shown {
+  border: none;
+  outline: 3px solid #276f9f69;
+  background-color:GhostWhite;
+}
+
+.event-text-CSS:valid {
+  border: none;
+  outline: 3px solid Green;
+  background-color: HoneyDew;
+}
+
+.event-text-CSS:invalid {
+  border: none;
+  outline: 3px solid Red;
+  background-color: MistyRose;
+}
+
+.event-span-CSS {
+  font-size: 24px;
+  color: Red;
+}
+
+.alert-event-CSS {
+  font-size: 30px;
+}
+
+.submit-event-button-CSS {
+  font-size: 26px;
+  display: inline-block;
+  text-decoration: none;
+  width: 50%;
+  background-color: #27709f;
+}
+
+.event-line-CSS {
+  border-bottom: 10px solid #27709f;
+  margin: auto;
+}
+
+
+/* =============== Section 1 =============== */
+.loading-event-CSS {
+  justify-content: center;
+  margin: 75px 0px;
+}
+
+.loading-event-spinner-CSS {
+  color: #27709f;
+  margin: 75px 0px;
+}
+
+.tabs-CSS {
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.event-search-box-CSS {
+  width: 50%;
+  margin: auto;
+}
+
+.event-clear-search-button-CSS {
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  width: 25%;
+  background-color: #27709f;
+  margin: 25px auto;
+}
+
+.search-box-result-CSS {
+  color: #27709f;
+  margin: 0px;
+}
+
+.section1-event-CSS {
+  justify-content: center;
+  margin: 50px 0px 75px;
+}
+
+.event-title-CSS {
+  font-size: 28px;
+}
+
+.event-date-CSS {
+  font-size: 26px;
+}
+
+.event-description-CSS {
+  font-size: 24px;
+}
+
+.event-button1-CSS {
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  width: auto;
+  background-color: #27709f;
+  margin: auto;
+}
+
+.event-button2-CSS {
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  width: auto;
+  background-color: Red;
+  margin: auto;
+}
+
+.title-event-modal-CSS {
+  margin: 20px 0px 10px;
+}
+
+.event-cancel-button-CSS {
+  margin: 0px 50px 25px;
+}
+
+.event-save-button-CSS {
+  background-color: #27709f;
+  margin: 0px 50px 25px;
+}
+
+.event-delete-button-CSS {
+  background-color: Red;
+  margin: 0px 50px 25px;
+}
+
+
+/* =============== Section 2 =============== */
+.section2-event-CSS {
+  justify-content: center;
+  margin: 50px 0px 75px;
+}
+
+
+
+/* =============== Media Queries =============== */
+
+/* =============== Mobile View =============== */
+@media only screen and (250px <= width <= 550px) {
+  /* Container */
+  .container-event1-CSS {
+    justify-content: center;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .container-event2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .h1-event-CSS {
+    font-size: 30px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .event-label-CSS {
+    font-size: large;
+    color: MidnightBlue;
+  }
+
+  .event-text-CSS {
+    font-size: medium;
+  }
+
+  .event-span-CSS {
+    font-size: 22px;
+    color: Red;
+  }
+
+  .submit-event-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-event-CSS {
+    justify-content: center;
+    margin: 50px 0px;
+  }
+
+  .loading-event-spinner-CSS {
+    color: #27709f;
+    margin: 50px 0px;
+  }
+
+  .event-search-box-CSS {
+    width: 100%;
+    margin: auto;
+  }
+
+  .event-clear-search-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-event-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+
+  .event-title-CSS {
+    font-size: 26px;
+  }
+
+  .event-date-CSS {
+    font-size: 24px;
+  }
+
+  .event-description-CSS {
+    font-size: 22px;
+  }
+
+  .event-button1-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .event-button2-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-event-modal-CSS {
+    margin: 10px 0px 5px;
+  }
+
+  .event-cancel-button-CSS {
+    margin: 0px 25px 10px;
+  }
+
+  .event-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 25px 10px;
+  }
+
+  .event-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 25px 10px;
+  }
+
+  /* Section 2 */
+  .section2-event-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 767px) {
+  /* Container */
+  .container-event1-CSS {
+    justify-content: center;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .container-event2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .h1-event-CSS {
+    font-size: 30px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .event-label-CSS {
+    font-size: large;
+    color: MidnightBlue;
+  }
+
+  .event-text-CSS {
+    font-size: medium;
+  }
+
+  .event-span-CSS {
+    font-size: 22px;
+    color: Red;
+  }
+
+  .submit-event-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-event-CSS {
+    justify-content: center;
+    margin: 50px 0px;
+  }
+
+  .loading-event-spinner-CSS {
+    color: #27709f;
+    margin: 50px 0px;
+  }
+
+  .event-search-box-CSS {
+    width: 100%;
+    margin: auto;
+  }
+
+  .event-clear-search-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: 75%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-event-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+
+  .event-title-CSS {
+    font-size: 26px;
+  }
+
+  .event-date-CSS {
+    font-size: 24px;
+  }
+
+  .event-description-CSS {
+    font-size: 22px;
+  }
+
+  .event-button1-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .event-button2-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-event-modal-CSS {
+    margin: 10px 0px 5px;
+  }
+
+  .event-cancel-button-CSS {
+    margin: 0px 25px 10px;
+  }
+
+  .event-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 25px 10px;
+  }
+
+  .event-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 25px 10px;
+  }
+
+  /* Section 2 */
+  .section2-event-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+}
+
+
+
+/* =============== Tablet View =============== */
+@media only screen and (768px <= width <= 1120px) {
+  /* Container */
+  .container-event1-CSS {
+    justify-content: center;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .container-event2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 50px 0px;
+    margin: auto;
+  }
+
+  .h1-event-CSS {
+    font-size: 30px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .event-label-CSS {
+    font-size: large;
+    color: MidnightBlue;
+  }
+
+  .event-text-CSS {
+    font-size: medium;
+  }
+
+  .event-span-CSS {
+    font-size: 22px;
+    color: Red;
+  }
+
+  .submit-event-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-event-CSS {
+    justify-content: center;
+    margin: 50px 0px;
+  }
+
+  .loading-event-spinner-CSS {
+    color: #27709f;
+    margin: 50px 0px;
+  }
+
+  .event-search-box-CSS {
+    width: 100%;
+    margin: auto;
+  }
+
+  .event-clear-search-button-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: 75%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-event-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+
+  .event-title-CSS {
+    font-size: 26px;
+  }
+
+  .event-date-CSS {
+    font-size: 24px;
+  }
+
+  .event-description-CSS {
+    font-size: 22px;
+  }
+
+  .event-button1-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .event-button2-CSS {
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-event-modal-CSS {
+    margin: 10px 0px 5px;
+  }
+
+  .event-cancel-button-CSS {
+    margin: 0px 25px 10px;
+  }
+
+  .event-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 25px 10px;
+  }
+
+  .event-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 25px 10px;
+  }
+
+  /* Section 2 */
+  .section2-event-CSS {
+    justify-content: center;
+    margin: 25px 0px 50px;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+  /* Container */
+  .container-event1-CSS {
+    justify-content: center;
+    padding: 75px 0px;
+    margin: auto;
+  }
+
+  .container-event2-CSS {
+    justify-content: center;
+    background-color: #276f9f69;
+    padding: 75px 0px;
+    margin: auto;
+  }
+
+  .h1-event-CSS {
+    font-size: 50px;
+    text-align: center;
+    color: #27709f;
+    margin: 0px auto 25px;
+  }
+
+  .event-label-CSS {
+    font-size: larger;
+    color: MidnightBlue;
+  }
+
+  .event-text-CSS {
+    font-size: large;
+  }
+
+  .event-span-CSS {
+    font-size: 24px;
+    color: Red;
+  }
+
+  .submit-event-button-CSS {
+    font-size: 26px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+  }
+
+  /* Section 1 */
+  .loading-event-CSS {
+    justify-content: center;
+    margin: 75px 0px;
+  }
+
+  .loading-event-spinner-CSS {
+    color: #27709f;
+    margin: 75px 0px;
+  }
+
+  .event-search-box-CSS {
+    width: 75%;
+    margin: auto;
+  }
+
+  .event-clear-search-button-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #27709f;
+    margin: 25px auto;
+  }
+
+  .section1-event-CSS {
+    justify-content: center;
+    margin: 50px 0px 75px;
+  }
+
+  .event-title-CSS {
+    font-size: 28px;
+  }
+
+  .event-date-CSS {
+    font-size: 26px;
+  }
+
+  .event-description-CSS {
+    font-size: 24px;
+  }
+
+  .event-button1-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: #27709f;
+    margin: auto;
+  }
+
+  .event-button2-CSS {
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    background-color: Red;
+    margin: auto;
+  }
+
+  .title-event-modal-CSS {
+    margin: 20px 0px 10px;
+  }
+
+  .event-cancel-button-CSS {
+    margin: 0px 50px 35px;
+  }
+
+  .event-save-button-CSS {
+    background-color: #27709f;
+    margin: 0px 50px 35px;
+  }
+
+  .event-delete-button-CSS {
+    background-color: Red;
+    margin: 0px 50px 35px;
+  }
+
+  /* Section 2 */
+  .section2-event-CSS {
+    justify-content: center;
+    margin: 50px 0px 75px;
+  }
+}
+
+
+
+/* =============== Drop Zone Area (Cloudinary) =============== */
+.event-dropzone-CSS {
+  background-color: #276f9f69;
+  border: none;
+  border-radius: 7px;
+  outline: 3px solid #27709f;
+  padding: 50px;
+  margin: auto;
+}
+
+.event-area-preview-CSS {
+  display: inline-flex;
+  background-color: SlateGrey;
+  border: none;
+  border-radius: 13px;
+  outline: 3px solid #27709f;
+  box-sizing: border-box;
+  height: auto;
+  width: auto;
+  padding: 7px;
+  margin: auto;
+}
+
+.display-event-preview-CSS {
+  height: auto;
+  max-width: 500px;
+}
+
+.update-event-preview-CSS {
+  height: auto;
+  max-width: 450px;
+}
+
+.uploading-event-CSS {
+  justify-content: center;
+  margin: 25px 0px;
+}
+
+.uploading-event-spinner-CSS {
+  color: MidnightBlue;
+  margin: 25px 0px 50px;
+}
+
+
+
+/* =============== Media Queries (Cloudinary) =============== */
+
+/* =============== Mobile View (Cloudinary) =============== */
+@media only screen and (250px <= width <= 550px) {
+  .event-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 25px;
+    margin: auto;
+  }
+
+  .display-event-preview-CSS,
+  .update-event-preview-CSS {
+    height: auto;
+    max-width: 250px;
+  }
+}
+
+
+
+@media only screen and (600px <= width <= 767px) {
+  .event-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 25px;
+    margin: auto;
+  }
+
+  .display-event-preview-CSS,
+  .update-event-preview-CSS {
+    height: auto;
+    max-width: 250px;
+  }
+}
+
+
+
+/* =============== Tablet View (Cloudinary) =============== */
+@media only screen and (768px <= width <= 1120px) {
+  .event-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 25px;
+    margin: auto;
+  }
+
+  .display-event-preview-CSS,
+  .update-event-preview-CSS {
+    height: auto;
+    max-width: 350px;
+  }
+}
+
+
+
+@media only screen and (1121px <= width <= 1910px) {
+  .event-dropzone-CSS {
+    background-color: #276f9f69;
+    border: none;
+    border-radius: 7px;
+    outline: 3px solid #27709f;
+    padding: 50px;
+    margin: auto;
+  }
+
+  .display-event-preview-CSS {
+    height: auto;
+    max-width: 500px;
+  }
+
+  .update-event-preview-CSS {
+    height: auto;
+    max-width: 450px;
+  }
+}
