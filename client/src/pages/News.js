@@ -19,6 +19,7 @@ import {GoSearch} from "react-icons/go";
 import ReactSearchBox from "react-search-box";
 import {DateTime} from "luxon";
 import {useDropzone} from "react-dropzone";
+import DOMPurify from "dompurify";
 
 
 // CSS
@@ -429,8 +430,44 @@ const News = () => {
     }
   }, [formStateInside, isSubmitSuccessfulInside, resetInside]);
 
+
+  // Create an array to hold structured data for all news
+  const newsDataArray = [];
+
+  // Generate structured data for each event and add it to the array
+  newsList.forEach((news) => {
+    const newsStructuredData = {
+      "@context": "https://schema.org/",
+      "@type": "NewsArticle",
+      "headline": news.title,
+      "datePublished": news.date,
+      "articleBody": news.description,
+      "url": news.link,
+      "image": news.image,
+    };
+    newsDataArray.push(newsStructuredData);
+  });
+
+  // Convert the structured data array to a JSON string
+  const newsDataJson = JSON.stringify(newsDataArray);
+
+  // Sanitize the structured data using DOMPurify
+  const sanitizedNewsDataJson = DOMPurify.sanitize(newsDataJson);
+
+  // Create a single script elements for the sanitized JSON data
+  const scriptNewsData = document.createElement("script");
+  scriptNewsData.type = "application/ld+json";
+  scriptNewsData.text = sanitizedNewsDataJson;
+
+  // Append the script element to the head of the document
+  document.head.appendChild(scriptNewsData);
+
   return (
     <>
+      <div>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: scriptNewsData.text}}></script>
+      </div>
+
       {!isAdmin() && (
         <>
           <div className="container-fluid row container-news1-CSS">

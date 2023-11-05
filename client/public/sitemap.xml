@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+
+  <url>
+    <loc>https://mern-society-cms.vercel.app/</loc>
+    <lastmod>2023-11-05T01:12:39+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mern-society-cms.vercel.app/about-us</loc>
+    <lastmod>2023-11-05T01:13:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mern-society-cms.vercel.app/event</loc>
+    <lastmod>2023-11-05T01:13:30+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mern-society-cms.vercel.app/news</loc>
+    <lastmod>2023-11-05T01:14:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mern-society-cms.vercel.app/affiliate</loc>
+    <lastmod>2023-11-05T01:14:30+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mern-society-cms.vercel.app/signup</loc>
+    <lastmod>2023-11-05T01:15:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mern-society-cms.vercel.app/login</loc>
+    <lastmod>2023-11-05T01:15:30+00:00</lastmod>
+  </url>
+
+
+</urlset>

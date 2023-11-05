@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://mern-society-cms.vercel.app/sitemap.xml

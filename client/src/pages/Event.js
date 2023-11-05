@@ -21,6 +21,7 @@ import {GoSearch} from "react-icons/go";
 import ReactSearchBox from "react-search-box";
 import {DateTime} from "luxon";
 import {useDropzone} from "react-dropzone";
+import DOMPurify from "dompurify";
 
 
 // CSS
@@ -465,8 +466,66 @@ const Event = () => {
     }
   }, [formStateInside, isSubmitSuccessfulInside, resetInside]);
 
+
+  // Create an array to hold structured data for all events
+  const eventDataArray = [];
+  const eventArchiveDataArray = [];
+
+  // Generate structured data for each event and add it to the array
+  eventList.forEach((event) => {
+    const eventStructuredData = {
+      "@context": "https://schema.org/",
+      "@type": "Event",
+      "name": event.title,
+      "date": event.date,
+      "description": event.description,
+      "url": event.link,
+      "image": event.image,
+    };
+    eventDataArray.push(eventStructuredData);
+  });
+
+  eventArchiveList.forEach((event) => {
+    const eventArchiveStructuredData = {
+      "@context": "https://schema.org/",
+      "@type": "Event",
+      "name": event.title,
+      "date": event.date,
+      "description": event.description,
+      "url": event.link,
+      "image": event.image,
+    };
+    eventArchiveDataArray.push(eventArchiveStructuredData);
+  });
+
+  // Convert the structured data arrays to JSON strings
+  const eventDataJson = JSON.stringify(eventDataArray);
+  const eventArchiveDataJson = JSON.stringify(eventArchiveDataArray);
+
+  // Sanitize the structured data using DOMPurify
+  const sanitizedEventDataJson = DOMPurify.sanitize(eventDataJson);
+  const sanitizedEventArchiveDataJson = DOMPurify.sanitize(eventArchiveDataJson);
+
+  // Create two script elements for the sanitized JSON data
+  const scriptEventData = document.createElement("script");
+  scriptEventData.type = "application/ld+json";
+  scriptEventData.text = sanitizedEventDataJson;
+
+  const scriptEventArchiveData = document.createElement("script");
+  scriptEventArchiveData.type = "application/ld+json";
+  scriptEventArchiveData.text = sanitizedEventArchiveDataJson;
+
+  // Append the script element to the head of the document
+  document.head.appendChild(scriptEventData);
+  document.head.appendChild(scriptEventArchiveData);
+
   return (
     <>
+      <div>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: scriptEventData.text}}></script>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: scriptEventArchiveData.text}}></script>
+      </div>
+
       {!isAdmin() && (
         <>
           <div className="container-fluid row container-event1-CSS">

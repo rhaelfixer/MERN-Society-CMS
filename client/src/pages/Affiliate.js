@@ -19,6 +19,7 @@ import {GoSearch} from "react-icons/go";
 import ReactSearchBox from "react-search-box";
 import {DateTime} from "luxon";
 import {useDropzone} from "react-dropzone";
+import DOMPurify from "dompurify";
 
 
 // CSS
@@ -428,8 +429,44 @@ const Affiliate = () => {
     }
   }, [formStateInside, isSubmitSuccessfulInside, resetInside]);
 
+
+  // Create an array to hold structured data for all affiliates
+  const affiliateDataArray = [];
+
+  // Generate structured data for each affiliate and add it to the array
+  affiliateList.forEach((affiliate) => {
+    const affiliateStructuredData = {
+      "@context": "https://schema.org/",
+      "@type": "Article",
+      "headline": affiliate.title,
+      "datePublished": affiliate.date,
+      "articleBody": affiliate.description,
+      "url": affiliate.link,
+      "image": affiliate.image,
+    };
+    affiliateDataArray.push(affiliateStructuredData);
+  });
+
+  // Convert the structured data array to a JSON string
+  const affiliateDataJson = JSON.stringify(affiliateDataArray);
+
+  // Sanitize the structured data using DOMPurify
+  const sanitizedAffiliateDataJson = DOMPurify.sanitize(affiliateDataJson);
+
+  // Create a single script elements for the sanitized JSON data
+  const scriptAffiliateData = document.createElement("script");
+  scriptAffiliateData.type = "application/ld+json";
+  scriptAffiliateData.text = sanitizedAffiliateDataJson;
+
+  // Append the script element to the head of the document
+  document.head.appendChild(scriptAffiliateData);
+
   return (
     <>
+      <div>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: scriptAffiliateData.text}}></script>
+      </div>
+
       {!isAdmin() && (
         <>
           <div className="container-fluid row container-affiliate1-CSS">
